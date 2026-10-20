@@ -1,0 +1,48 @@
+name: 28卒採用・AWSイベント Discordウォッチ
+on:
+  schedule:
+    # UTC 01:00 = 台湾 09:00 / 日本 10:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      send_test:
+        description: 'Discordへのテスト通知のみ送る（初回設定確認用）'
+        required: false
+        type: boolean
+        default: false
+concurrency:
+  group: discord-watch
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check sources and notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SEND_TEST: ${{ inputs.send_test }}
+        run: |
+          if [ "$SEND_TEST" = "true" ]; then
+            python monitor.py --test-webhook
+          else
+            python monitor.py
+          fi
+      - name: Persist monitoring state
+        if: ${{ inputs.send_test != true }}
+        run: |
+          if ! git diff --quiet -- data/state.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/state.json
+            git commit -m "chore: update recruitment watch baseline"
+            git push
+          fi
