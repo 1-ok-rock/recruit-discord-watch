@@ -1,0 +1,74 @@
+# 公式サイトのみ。JavaScript/ログイン必須ページは取得できない場合があります。
+# type: recruitment | aws_recruiting_event | aws_event | aws_news
+sources:
+  - id: aws_jobs
+    name: AWS
+    type: recruitment
+    url: https://aws.amazon.com/jp/careers/newgraduate/
+  - id: aws_sa
+    name: AWS
+    type: recruitment
+    url: https://aws.amazon.com/jp/careers/newgraduate/solutionsarchitect/
+  - id: nri
+    name: 野村総合研究所（NRI）
+    type: recruitment
+    url: https://working.nri.co.jp/recruit/2028/index.html
+    year_context: true
+  - id: accenture
+    name: アクセンチュア
+    type: recruitment
+    url: https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level
+  - id: ibm
+    name: 日本IBM
+    type: recruitment
+    url: https://www.ibm.com/jp-ja/careers/career-opportunities
+  - id: microsoft
+    name: 日本マイクロソフト
+    type: recruitment
+    url: https://www.microsoft.com/ja-jp/mscorp/college/mskk-entry
+  - id: microsoft_top
+    name: 日本マイクロソフト
+    type: recruitment
+    url: https://www.microsoft.com/ja-jp/mscorp/college/mskk
+  - id: cisco
+    name: Cisco
+    type: recruitment
+    url: https://www.cisco.com/c/ja_jp/about/careers/new-graduate.html
+  - id: salesforce
+    name: Salesforce
+    type: recruitment
+    url: https://www.salesforce.com/jp/company/careers/university-homepage/
+  - id: sap
+    name: SAP
+    type: recruitment
+    url: https://jobs.sap.com/
+  - id: oracle
+    name: Oracle
+    type: recruitment
+    url: https://www.oracle.com/jp/careers/students-grads/
+  - id: google
+    name: Google
+    type: recruitment
+    url: https://www.google.com/about/careers/applications/jobs/results/?jlo=ja_JP
+  - id: aws_newgrad_events
+    name: AWS新卒採用イベント
+    type: aws_recruiting_event
+    url: https://aws.amazon.com/jp/careers/newgraduate/
+  - id: aws_events
+    name: AWSイベント
+    type: aws_event
+    url: https://aws.amazon.com/jp/events/
+  - id: aws_summit
+    name: AWS Summit Japan
+    type: aws_event
+    url: https://aws.amazon.com/jp/events/summits/japan/
+  - id: aws_blog
+    name: AWS公式ブログ
+    type: aws_event
+    url: https://aws.amazon.com/jp/blogs/news/feed/
+    format: rss
+  - id: aws_whats_new
+    name: AWS What's New
+    type: aws_news
+    url: https://aws.amazon.com/about-aws/whats-new/recent/feed/
+    format: rss
