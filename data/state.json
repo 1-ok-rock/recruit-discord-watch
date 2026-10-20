@@ -1,1 +1,695 @@
-{"schema":1,"sources":{},"updated_at":null}
+{
+  "schema": 1,
+  "sources": {
+    "aws_jobs": {
+      "items": {
+        "3f02f4641cff420ac5369cfc": {
+          "id": "3f02f4641cff420ac5369cfc",
+          "category": "recruitment",
+          "company": "AWS",
+          "title": "ソリューションアーキテクト（ 2028 年卒対象 SA 本選考応募受付開始 ! ） Learn More",
+          "url": "https://aws.amazon.com/jp/careers/newgraduate/solutionsarchitect/",
+          "detail": "ソリューションアーキテクト（ 2028 年卒対象 SA 本選考応募受付開始 ! ） Learn More",
+          "fingerprint": "e39397cb953c3e8e7e91e7c8"
+        },
+        "7c6d7931e2193429ad5fdb1c": {
+          "id": "7c6d7931e2193429ad5fdb1c",
+          "category": "recruitment",
+          "company": "AWS",
+          "title": "ソリューションアーキテクト（ 2028 年卒対象 SA 本選考応募受付開始 ! ）",
+          "url": "https://aws.amazon.com/jp/careers/newgraduate/",
+          "detail": "ソリューションアーキテクト（ 2028 年卒対象 SA 本選考応募受付開始 ! ）",
+          "fingerprint": "97028128b0c021012df64613"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:35.150111+00:00",
+      "latest_count": 2
+    },
+    "aws_sa": {
+      "items": {
+        "4cf9d108341e6ea806885524": {
+          "id": "4cf9d108341e6ea806885524",
+          "category": "recruitment",
+          "company": "AWS",
+          "title": "2028 年卒対象 SA 本選考応募受付開始 !",
+          "url": "https://aws.amazon.com/jp/careers/newgraduate/solutionsarchitect/",
+          "detail": "2028 年卒対象 SA 本選考応募受付開始 !",
+          "fingerprint": "cf8929a5034e5075bd2edb90"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:35.269091+00:00",
+      "latest_count": 1
+    },
+    "nri": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:36.623566+00:00",
+      "latest_count": 0
+    },
+    "accenture": {
+      "items": {
+        "38077cfc92a5256e76190566": {
+          "id": "38077cfc92a5256e76190566",
+          "category": "recruitment",
+          "company": "アクセンチュア",
+          "title": "2028年卒のエントリーを受付中です。新卒採用に興味のある方は、プレエントリーをお願いします。募集中の職種、募集要項、イベント、コンテンツなど、詳細や最新の情報はMyPa",
+          "url": "https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level",
+          "detail": "2028年卒のエントリーを受付中です。新卒採用に興味のある方は、プレエントリーをお願いします。募集中の職種、募集要項、イベント、コンテンツなど、詳細や最新の情報はMyPageに掲載しています。ご確認ください。",
+          "fingerprint": "91181483a0032a7bd76c8663"
+        },
+        "6dcc22cb378581ea966a2796": {
+          "id": "6dcc22cb378581ea966a2796",
+          "category": "recruitment",
+          "company": "アクセンチュア",
+          "title": "2027年卒（27年入社）のエントリー受付は終了しています。選考希望の方は、こちらの2028年卒向けプレエントリーから登録ください。",
+          "url": "https://axol.jp/zw/s/accenture_28/entry_1324320008",
+          "detail": "2027年卒（27年入社）のエントリー受付は終了しています。選考希望の方は、こちらの2028年卒向けプレエントリーから登録ください。",
+          "fingerprint": "219a2c1669048f2d248ab70f"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:36.859174+00:00",
+      "latest_count": 2
+    },
+    "ibm": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:37.070639+00:00",
+      "latest_count": 0
+    },
+    "microsoft": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:37.205211+00:00",
+      "latest_count": 0
+    },
+    "microsoft_top": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:37.291428+00:00",
+      "latest_count": 0
+    },
+    "salesforce": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:38.751126+00:00",
+      "latest_count": 0
+    },
+    "sap": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:39.086583+00:00",
+      "latest_count": 0
+    },
+    "oracle": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:39.344032+00:00",
+      "latest_count": 0
+    },
+    "google": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:39.716783+00:00",
+      "latest_count": 0
+    },
+    "aws_newgrad_events": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:39.839094+00:00",
+      "latest_count": 0
+    },
+    "aws_events": {
+      "items": {
+        "fd4d390226363f78482126df": {
+          "id": "fd4d390226363f78482126df",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "AWS Global Summit",
+          "url": "https://aws.amazon.com/jp/events/",
+          "detail": "AWS Global Summit",
+          "fingerprint": "5fb9b2e8af43a59d76cbfd28"
+        },
+        "5832f68623ec74f7ace462fb": {
+          "id": "5832f68623ec74f7ace462fb",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "近日開催予定の AWS Summit を見る",
+          "url": "https://aws.amazon.com/jp/events/summits/",
+          "detail": "近日開催予定の AWS Summit を見る",
+          "fingerprint": "9c17944d3352e76706a1ee3a"
+        },
+        "7d5a573da91a81e5a8d9eb64": {
+          "id": "7d5a573da91a81e5a8d9eb64",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "近日開催予定の AWS パートナーイベントを見る",
+          "url": "https://aws.amazon.com/jp/events/aws-partner-events/?trk=ep_card_main_event_page",
+          "detail": "近日開催予定の AWS パートナーイベントを見る",
+          "fingerprint": "4c30d1f6c505e3843b003f1a"
+        },
+        "68c077383b4024c8e8ab3313": {
+          "id": "68c077383b4024c8e8ab3313",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "近日開催予定の AWS パートナーウェビナーを見る",
+          "url": "https://aws.amazon.com/jp/webinars/partner-webinars/?trk=ep_card_event_page&events-master-partner-webinars.sort-by=item.additionalFields.startDateTime&events-master-partner-webinars.sort-order=asc&awsf.type=*all&awsf.category=*all&awsf.use-case=*all",
+          "detail": "近日開催予定の AWS パートナーウェビナーを見る",
+          "fingerprint": "3dfce192c988ac3be86eda7d"
+        },
+        "49bb89bd39580c8cd8ca4895": {
+          "id": "49bb89bd39580c8cd8ca4895",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "今後開催予定の AWS Initiate イベントを見る",
+          "url": "https://aws.amazon.com/jp/government-education/events/?trk=ep_card_main_event_page&?nc2=h_ql_ev_ps_bps&ps-events.sort-by=item.additionalFields.startDateTime&ps-events.sort-order=asc&awsf.events-ww-public-sector-series=series%23aws-initiate",
+          "detail": "今後開催予定の AWS Initiate イベントを見る",
+          "fingerprint": "ef57f3e95ae121c994e3d45f"
+        },
+        "a96cbca4d9df2f5db92571c3": {
+          "id": "a96cbca4d9df2f5db92571c3",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "近日開催予定の IMAGINE ウェビナーを見る",
+          "url": "https://aws.amazon.com/jp/education/imagine-edu/webinar-series/?trk=ep_card_main_event_page",
+          "detail": "近日開催予定の IMAGINE ウェビナーを見る",
+          "fingerprint": "2b7651d6cc7fcb1f5e36421f"
+        },
+        "89e7c22f321ee99baa400fdd": {
+          "id": "89e7c22f321ee99baa400fdd",
+          "category": "aws_event",
+          "company": "AWSイベント",
+          "title": "AWS Public Sector Summit Online",
+          "url": "https://aws.amazon.com/jp/events/",
+          "detail": "AWS Public Sector Summit Online",
+          "fingerprint": "c576769ed5c4b3be3aedf8b6"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:39.966242+00:00",
+      "latest_count": 7
+    },
+    "aws_summit": {
+      "items": {
+        "58a6860ba53b3f26ee863d9e": {
+          "id": "58a6860ba53b3f26ee863d9e",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "AWS Summit Japan",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "AWS Summit Japan",
+          "fingerprint": "f178fecfae0c51683647c9c1"
+        },
+        "93974dadecf0ab07fa23c1e4": {
+          "id": "93974dadecf0ab07fa23c1e4",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "AWS Summit Japan に参加する",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "AWS Summit Japan に参加する",
+          "fingerprint": "56eac976bc6424d454da2635"
+        },
+        "6171bea33a583b48597b117d": {
+          "id": "6171bea33a583b48597b117d",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "AWS Summit Japan は、クラウドと AI イノベーションの最前線を体験できる 2 日間の無料イベントです。エージェンティック AI やサーバーレスコンピューティングなど、業界を変革し、デジタル時代においてビジネスの成",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "AWS Summit Japan は、クラウドと AI イノベーションの最前線を体験できる 2 日間の無料イベントです。エージェンティック AI やサーバーレスコンピューティングなど、業界を変革し、デジタル時代においてビジネスの成長を支えるテクノロジーを体感しましょう。業界のリーダーとの交流、同業他社とのコラボレーション、そして AWS エキスパートへ直接質問し疑問を解消できる貴重な機会です。同じ興味・関心を持つプロフェッショナルとの交流を広げ、インタラクティブなワークショップやカスタマーショーケースなど、多彩なラインアップからご自身のビジネスニーズに最適な体験を自由にカスタマイズしましょう。",
+          "fingerprint": "e2b6b3d7ee9cdd47e91961fa"
+        },
+        "34383c952d89d171f329f98b": {
+          "id": "34383c952d89d171f329f98b",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "この2日間の無料イベントでは、基調講演、ハンズオン技術セッション、クラウド移行や AI など幅広いトピックをカバーするインタラクティブな学習機会を通じて、AWS の知識を深めることができます。他の参加者との交流を通じて、クラウドと",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "この2日間の無料イベントでは、基調講演、ハンズオン技術セッション、クラウド移行や AI など幅広いトピックをカバーするインタラクティブな学習機会を通じて、AWS の知識を深めることができます。他の参加者との交流を通じて、クラウドと AI テクノロジーを活用したビジネス変革の事例を学び、AWS コミュニティの最新イノベーションを活用して自社の難しいユースケースに取り組みましょう。AWS Summit Japan では、あらゆる知識レベルの方々が新たな学びを得ることができます。",
+          "fingerprint": "f492497abd7ffa5b6812136e"
+        },
+        "7c257b59819ac5bec1e3c1ac": {
+          "id": "7c257b59819ac5bec1e3c1ac",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "6 月 25 日 (木) 08:30 受付開始 10:00–11:10 基調講演 10:00–18:30 AWS Expo 10:00–18:30 Partner Expo 11:30–17:10 セッション 11:30–18:2",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "6 月 25 日 (木) 08:30 受付開始 10:00–11:10 基調講演 10:00–18:30 AWS Expo 10:00–18:30 Partner Expo 11:30–17:10 セッション 11:30–18:20 シアター 18:30 イベント終了",
+          "fingerprint": "7c0ca3ce32e1af7ccec3677b"
+        },
+        "078726dce1b13abd48857f40": {
+          "id": "078726dce1b13abd48857f40",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "6 月 26 日 (金) 08:30 受付開始 10:00–11:30 スペシャルセッション 10:00–19:00 AWS Expo 10:00–17:00 Partner Expo 12:00–16:40 セッション 12:0",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "6 月 26 日 (金) 08:30 受付開始 10:00–11:30 スペシャルセッション 10:00–19:00 AWS Expo 10:00–17:00 Partner Expo 12:00–16:40 セッション 12:00–16:50 シアター 17:30–19:00 ネットワーキングレセプション 19:00 イベント終了",
+          "fingerprint": "310c8e63238d3b93f57f7f45"
+        },
+        "4dbe000520121dcba522ed65": {
+          "id": "4dbe000520121dcba522ed65",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "AWS Summit Japan オンデマンド視聴に登録する 今すぐ登録する",
+          "url": "https://pages.awscloud.com/aws-summit-japan-livestream-2026-registration.html?trk&sc_channel",
+          "detail": "AWS Summit Japan オンデマンド視聴に登録する 今すぐ登録する",
+          "fingerprint": "8c2f44cb495c3c359ddf1474"
+        },
+        "ad1c0fb46bab5d13d7ae7435": {
+          "id": "ad1c0fb46bab5d13d7ae7435",
+          "category": "aws_event",
+          "company": "AWS Summit Japan",
+          "title": "AWS Summit Japan オンデマンド視聴に登録する",
+          "url": "https://aws.amazon.com/jp/events/summits/japan/",
+          "detail": "AWS Summit Japan オンデマンド視聴に登録する",
+          "fingerprint": "dd6b145013f7947494e9eda1"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:40.093190+00:00",
+      "latest_count": 8
+    },
+    "aws_blog": {
+      "items": {},
+      "last_ok": "2026-10-20T10:22:40.122230+00:00",
+      "latest_count": 0
+    },
+    "aws_whats_new": {
+      "items": {
+        "c68f3275849c9791af7ebdbc": {
+          "id": "c68f3275849c9791af7ebdbc",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS Proxy が SQL Server 2022 のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
+          "detail": "Amazon RDS Proxy が SQL Server 2022 のサポートを開始 — Amazon Relational Database Service (RDS) 向けのフルマネージドで高可用性のデータベースプロキシである Amazon RDS Proxy では、メジャーバージョン 2022 を実行する Amazon RDS for SQL Server インスタンスをサポートするようになりました。 Amazon RDS Proxy はアプリケーションとデータベースの間に配置され、確立されたデータベース接続をプールして共有し、データベースの効率とアプリケーションのスケーラビリティを向上させます。Amazon RDS for SQL Server のマルチ AZ データベースでは、障害発生時に RDS Proxy がスタンバイデータベースインスタンスに自動的に接続し、アプリ",
+          "fingerprint": "8a1122493268e5363427f96d"
+        },
+        "a501267aa143cd4254025e8e": {
+          "id": "a501267aa143cd4254025e8e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 が Vercel Marketplace および v0 by Vercel で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
+          "detail": "Amazon S3 が Vercel Marketplace および v0 by Vercel で利用可能に — Amazon S3 (S3 Tables と S3 Vectors を含む) が Vercel Marketplace および v0 by Vercel で利用できるようになりました。デベロッパーは、開発環境を離れることなく、数秒で S3 リソースを作成して接続できます。Vercel の簡素化されたプロビジョニングワークフローを通じて、S3 の耐久性、スケーラビリティ、パフォーマンスを活用できます。 数百万のお客様が、ウェブアプリケーションや AI アプリケーションを実現する低コストで高パフォーマンスのストレージとして S3 を利用しています。しかしこれまでは、Vercel から S3 をプロビジョニングするには AWS マネジメントコンソールに移動する必要がありました。今回、S3 は Ve",
+          "fingerprint": "90a57c7173f5ed5bf66464e5"
+        },
+        "7caac2fca9a9640232247e33": {
+          "id": "7caac2fca9a9640232247e33",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Security Hub が優先順位付けに使用するリソースの重要度をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+          "detail": "AWS Security Hub が優先順位付けに使用するリソースの重要度をサポート — 本日、AWS Security Hub では、エクスポージャーの優先順位付けに使用するリソースの重要度が追加されました。これにより、中央のセキュリティチームは、ビジネス上最も重要なリソースを脅かすエクスポージャーに集中できます。 重要度はオートメーションルールで設定できます。例えば、特定のアカウント内のすべてのコンピューティングリソースを Very High に指定できます。このルールは、インベントリ内の既存のリソースと、Security Hub が検出する新しいリソースの両方に適用されます。また、Security Hub は設定不要でリソースタグとリソース名から重要度を推定し、どのソースに基づいて値が決定されたかを記録します。重要度は [リソース] ページに列として表示され、並べ替え、フィ",
+          "fingerprint": "23987a07920f907f1159da79"
+        },
+        "bda26847ecb8391304a743a2": {
+          "id": "bda26847ecb8391304a743a2",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon ECS が LiveTaskCount を追加し、RunningTaskCount メトリクスを無料化",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ecs-service-metrics/",
+          "detail": "Amazon ECS が LiveTaskCount を追加し、RunningTaskCount メトリクスを無料化 — 本日、Amazon Elastic Container Service (Amazon ECS) では、新しい ECS サービスメトリクスである LiveTaskCount が発表されました。このメトリクスは、サービス内でアクティブに実行されているタスクの数をレポートするもので、すべてのお客様が追加料金なしで利用できます。また、Amazon CloudWatch Container Insights の既存メトリクスである RunningTaskCount を、無料で利用できるようになりました。 LiveTaskCount は、すべての目的のステータス (ACTIVATING、RUNNING、DEACTIVATING) にわたって、アクティブに実行されている ECS タスクの数をレポートしま",
+          "fingerprint": "96cfa6a6dc4d04e344946eae"
+        },
+        "47bf7e331598462051c6e94f": {
+          "id": "47bf7e331598462051c6e94f",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda 永続関数が永続オペレーションとチェックポイントペイロードの制限を引き上げ",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-lambda-durable-gen-limit-increase/",
+          "detail": "AWS Lambda 永続関数が永続オペレーションとチェックポイントペイロードの制限を引き上げ — 本日より、AWS Lambda 永続関数では、実行あたりの永続オペレーションの最大数が 3,000 から 30,000 に、チェックポイントペイロードの最大サイズが 256 KB から 1 MB に引き上げられました。オペレーション数の制限が引き上げられたことで、1 回の実行でより多くの処理を安全に行えるようになります。例えば、反復ループの拡張、より長時間のポーリング、ステップの失敗時に実行されるより複雑なロールバックパスの構築などが可能です。1 MB というチェックポイントペイロードのサイズは、Lambda の非同期呼び出しや、Amazon SQS、Amazon EventBridge などの統合サービスの最大ペイロードサイズと同じです。そのため、ワークフローは、これらのどのソースから受け",
+          "fingerprint": "ae030465b66763a570385244"
+        },
+        "e3dbee7455e400ced86a59db": {
+          "id": "e3dbee7455e400ced86a59db",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Route 53 がプレミアムドメインの登録、移管、更新をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/route-53-premium-domains/",
+          "detail": "Amazon Route 53 がプレミアムドメインの登録、移管、更新をサポート — Amazon Route 53 ドメインではプレミアムドメイン名がサポートされるようになりました。お客様は、レジストリのプレミアムドメイン名を Route 53 で直接、検索、登録、移管、更新、復元できるようになりました。 ほとんどのドメインレジストリは、短い名前、覚えやすい名前、需要の高い名前などの一部を「プレミアム」ドメインとして指定しています。これまで Route 53 ドメインではこうしたプレミアムドメイン名をサポートしていなかったため、これらのドメインを使用したいお客様は、他の登録事業者を通じて登録および管理する必要がありました。その結果、保有するドメインの管理先が複数のプロバイダーに分かれていました。今回のリリースにより、お客様は Route 53 ドメインでプレミアムドメインを",
+          "fingerprint": "b7949f677c61be1ed4841e33"
+        },
+        "e63b7fc2adb2c003c760530b": {
+          "id": "e63b7fc2adb2c003c760530b",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS が Microsoft SQL Server の最新の CU に対応",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cu-microsoft-sql-server/",
+          "detail": "Amazon RDS が Microsoft SQL Server の最新の CU に対応 — Amazon Relational Database Service (Amazon RDS) for SQL Server が、Microsoft SQL Server の最新の累積更新 (CU) に対応しました。このリリースには、Microsoft SQL Server 2025 CU8 の KB5104822 (RDS バージョン 17.00.4075.5.v1) のサポートが含まれています。 これらの更新プログラムに含まれる改善点および修正点の詳細については、KB5104822 に関する Microsoft のドキュメントを参照してください。Amazon RDS マネジメントコンソールを使用するか、AWS SDK または CLI を使用して、Amazon RDS for SQL Se",
+          "fingerprint": "17d93d4be32dc8489ae11083"
+        },
+        "db54fcdd75c02ae60dc0aad3": {
+          "id": "db54fcdd75c02ae60dc0aad3",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudFront がオリジンとしての AWS Lambda Web Function のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+          "detail": "Amazon CloudFront がオリジンとしての AWS Lambda Web Function のサポートを開始 — 本日より、AWS Lambda Web Function 上で構築されたウェブアプリケーションを CloudFront のグローバルエッジネットワークを通じて配信できるようになりました。 CloudFront を Lambda Web Function の前に配置することで、レイテンシーの短縮と接続の高速化を実現するエッジでの TLS ターミネーション、パフォーマンスを向上させるキャッシュ機能、マネージド TLS 証明書を使用したカスタムドメインを利用できます。アプリケーションコードを変更する必要はありません。CloudFront オリジンアクセスコントロール (OAC) は Lambda Web Function を制限して CloudFront からのみアクセスできるようにします。そのた",
+          "fingerprint": "4013e1c6f9ff88e1fbc7833d"
+        },
+        "868b661d5a2a7b55ac7d5a08": {
+          "id": "868b661d5a2a7b55ac7d5a08",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 G7 インスタンスが欧州 (フランクフルト) および欧州 (ストックホルム) リージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
+          "detail": "Amazon EC2 G7 インスタンスが欧州 (フランクフルト) および欧州 (ストックホルム) リージョンで利用可能に — NVIDIA RTX PRO 4500 Blackwell Server Edition GPU を搭載した Amazon Elastic Compute Cloud (Amazon EC2) G7 インスタンスが、欧州 (フランクフルト) および欧州 (ストックホルム) リージョンで利用できるようになりました。G7 インスタンスは、G6 インスタンスと比較して AI 推論性能が最大 4.6 倍、グラフィックス性能が最大 2.1 倍向上しています。また、G7 インスタンスは、GPU で高速化されたデータ分析ワークロードにおいても、高いパフォーマンスを発揮します。 言語翻訳、動画および画像解析、音声認識、リコメンダーシステム向けの AI モデルのデプロイに G7 インスタンスを使用できます。ま",
+          "fingerprint": "8e4fcd3cbc939abf9d22c458"
+        },
+        "6191bbcc4909cac13f9d2c0f": {
+          "id": "6191bbcc4909cac13f9d2c0f",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda が Lambda Web Function を発表",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+          "detail": "AWS Lambda が Lambda Web Function を発表 — AWS Lambda は、コードが HTTP リクエストを直接処理する新しいサーバーレスコンピューティングプリミティブである Lambda Web Function を発表しました。コードはポートでリッスンし、あらゆる HTTP サーバーと同じようにリクエストを処理します。Express や Hono などの使い慣れたフレームワークを、アダプターやカスタム設定なしで使用できます。これにより、AI 推論エンドポイント、サーバー側でレンダリング (SSR) されたウェブアプリケーション、ストリーミング API エンドポイント、マイクロサービス、Webhook などのワークロードに対応できます。コードがデータベースやダウンストリームサービスを待機するために費やすアイドル状態の CPU 時間ではなく",
+          "fingerprint": "681508fff3963798de88ab5a"
+        },
+        "cea76848da38064c68b3dde1": {
+          "id": "cea76848da38064c68b3dde1",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock AgentCore の短期メモリで従量制の価格設定を発表",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+          "detail": "Amazon Bedrock AgentCore の短期メモリで従量制の価格設定を発表 — Amazon Bedrock AgentCore の短期メモリで従量制の価格設定を発表 Amazon Bedrock AgentCore メモリは、従来のイベントごとの定額料金に代わり、エージェントが取り込み、取得、保存するデータに基づいて短期メモリ (STM) の料金が設定されるようになりました。AgentCore メモリは、短期メモリを通じてエージェントにセッション内のコンテキストを提供し、長期メモリを通じてセッション間で永続的な知識を提供します。従量制の価格設定により、頻繁に小さなイベントを書き込むエージェントを構築するデベロッパーは、使用量に応じた料金を支払うことになります。 STM の料金は、取り込みが 1 GB あたり 1.00 USD、取得が 1 GB あたり 0.20 USD",
+          "fingerprint": "93d32c5d9a83da68c9fc1496"
+        },
+        "bf099559a596a1ff40b98d02": {
+          "id": "bf099559a596a1ff40b98d02",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 Express One Zone が 4 つの AWS リージョンで新たに利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
+          "detail": "Amazon S3 Express One Zone が 4 つの AWS リージョンで新たに利用可能に — Amazon S3 Express One Zone ストレージクラスが、欧州 (ロンドン)、アジアパシフィック (ジャカルタ)、アジアパシフィック (香港)、アフリカ (ケープタウン) の 4 つの AWS リージョンで新たに利用可能になりました。 Amazon S3 Express One Zone は単一アベイラビリティーゾーンの高性能ストレージクラスです。1 桁ミリ秒の一貫したデータアクセスを実現することで、アクセス頻度が最も高いデータや低レイテンシーを必要とするアプリケーションに対応できるよう専用に構築されました。S3 Express One Zone では、S3 Standard に比べてデータアクセス速度が最大 10 倍速く、リクエストのコストを最大 80% 低く抑えることがで",
+          "fingerprint": "269009ece1e2c5077bbc7e45"
+        },
+        "2330e185bbed74c9e7a01ab9": {
+          "id": "2330e185bbed74c9e7a01ab9",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Security Hub の検出結果を CSV または JSON 形式で S3 にエクスポート可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+          "detail": "AWS Security Hub の検出結果を CSV または JSON 形式で S3 にエクスポート可能に — 本日、AWS Security Hub で、検出結果を CSV 形式または OCSF に準拠した JSON 形式で Amazon S3 にエクスポートできるようになりました。セキュリティチームは、コンプライアンス報告に、または監査用の証拠資料として検出結果をコンソール外で使用する際に、独自のデータ抽出パイプラインを構築および維持する必要がなくなりました。[脅威]、[露出]、[脆弱性]、[体制管理]、[機密データ]、[すべての検出結果] といった、Security Hub コンソールのすべての検出結果ページから検出結果をエクスポートできます。 今回のリリースにより、表示中の検出結果ページから必要に応じてエクスポートを開始し、アカウントの S3 バケットに結果を出力できます。スプレッドシートで検",
+          "fingerprint": "efd74cb73ac669d56cd09370"
+        },
+        "c5755e16d8b9cb3631a5f110": {
+          "id": "c5755e16d8b9cb3631a5f110",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 M8id インスタンスがアジアパシフィック (マレーシア) およびアジアパシフィック (シドニー) で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-m8id-asia-pacific-malaysia-sydney/",
+          "detail": "Amazon EC2 M8id インスタンスがアジアパシフィック (マレーシア) およびアジアパシフィック (シドニー) で利用可能に — 最大 22.8 TB のローカル NVMe ベースの SSD ブロックレベルストレージを備えた Amazon Elastic Compute Cloud (Amazon EC2) M8id インスタンスが、アジアパシフィック (マレーシア) およびアジアパシフィック (シドニー) で利用できるようになりました。M8id インスタンスは、データロギング、メディア処理、中規模のデータストアなど、コンピューティングリソースとメモリリソースのバランスに加えて、高速かつ低レイテンシーのローカルブロックストレージを必要とするワークロード向けに設計されています。 Amazon EC2 M8id インスタンスは、前世代の第 6 世代インスタンスと比較して、3 倍の vCPU、メモリ、ローカルストレージを提供",
+          "fingerprint": "264dd57b2f33b0cb59b638a8"
+        },
+        "17764851ec574b16cee7276d": {
+          "id": "17764851ec574b16cee7276d",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 C9g、C9gd、M9g、M9gd インスタンスが追加のリージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-c9g-m9g-instances-additional-regions/",
+          "detail": "Amazon EC2 C9g、C9gd、M9g、M9gd インスタンスが追加のリージョンで利用可能に — 本日より、Amazon Elastic Compute Cloud (Amazon EC2) C9g および C9gd インスタンスがアジアパシフィック (マレーシア、ソウル、シンガポール) リージョンで利用できるようになりました。Amazon EC2 M9g および M9gd インスタンスは、アジアパシフィック (マレーシア) および欧州 (スペイン) リージョンで利用できるようになりました。これらのインスタンスは、カスタム設計の CPU の第 5 世代である AWS Graviton5 プロセッサを搭載しており、Amazon EC2 で実行される幅広いワークロードに対して最適な料金パフォーマンスを提供します。 C9g および C9gd インスタンス と M9g および M9gd インスタ",
+          "fingerprint": "179c97614e85169b7170d52d"
+        },
+        "3f5ee26f52577fdc131c3182": {
+          "id": "3f5ee26f52577fdc131c3182",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 R8gd インスタンスを利用可能なリージョンが拡大",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+          "detail": "Amazon EC2 R8gd インスタンスを利用可能なリージョンが拡大 — Amazon Elastic Compute Cloud (Amazon EC2) R8gd インスタンスは AWS European Sovereign Cloud (ドイツ) リージョンでご利用いただけます。これらのインスタンスは、最大 11.4 TB のローカル NVMe ベースの SSD ブロックレベルストレージを備え、AWS Graviton4 プロセッサを搭載しているため、Graviton3 ベースのインスタンスと比較してパフォーマンスが最大 30% 向上します。これらのインスタンスは AWS Nitro System 上に構築されており、高速で低レイテンシーのローカルストレージへのアクセスを必要とするアプリケーションに最適です。 R8gd インスタンスには 12 種類のサイズが",
+          "fingerprint": "ae7970fab39ab6f448a7eb71"
+        },
+        "a5978cd11c085963bc39b209": {
+          "id": "a5978cd11c085963bc39b209",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 R8g インスタンスを利用可能なリージョンが増加",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+          "detail": "Amazon EC2 R8g インスタンスを利用可能なリージョンが増加 — 本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8g インスタンスが AWS European Sovereign Cloud (ドイツ) リージョンで利用できるようになります。これらのインスタンスは AWS Graviton4 プロセッサを搭載しており、Graviton3 ベースのインスタンスよりも最大 30% 高いパフォーマンスを発揮します。Amazon EC2 R8g インスタンスは、データベース、インメモリキャッシュ、リアルタイムビッグデータ分析などのメモリ集中型ワークロードに最適です。これらのインスタンスは、CPU 仮想化、ストレージ、およびネットワーク機能を専用のハードウェアとソフトウェアにオフロードして、ワークロードのパフォーマン",
+          "fingerprint": "0cf79557d054ca2966b8d90b"
+        },
+        "026895e9e5f8f4abb66f8634": {
+          "id": "026895e9e5f8f4abb66f8634",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock が OpenAI モデルの推論の要約に対応開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+          "detail": "Amazon Bedrock が OpenAI モデルの推論の要約に対応開始 — Amazon Bedrock で、Responses API を使用して OpenAI モデルの reasoning.summary パラメータを指定できるようになりました。この機能により、モデルの回答とともに、推論の内容を人が理解しやすい形でまとめた要約をリクエストできます。これにより、コーディングや分析、複数の手順を伴う問題解決といった複雑なタスクへのモデルのアプローチを把握できます。 推論の要約により、デベロッパーは回答を評価し、アプリケーションをデバッグし、モデルがリクエストにどのように取り組んだかをユーザーに示すうえで役立つ補足情報が得られます。モデルの回答に加え、reasoning 出力項目内の summary 配列で要約が返されます。 この機能は、OpenAI GPT モデルが",
+          "fingerprint": "7539a6d2ce14221386a263ad"
+        },
+        "b90b9ec6783cb57f064f58b3": {
+          "id": "b90b9ec6783cb57f064f58b3",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 Vectors のメタデータ事前フィルタリングが AWS GovCloud (米国) リージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+          "detail": "Amazon S3 Vectors のメタデータ事前フィルタリングが AWS GovCloud (米国) リージョンで利用可能に — Amazon S3 Vectors のメタデータ事前フィルタリングが AWS GovCloud (米国東部) および AWS GovCloud (米国西部) のリージョンで利用できるようになりました。事前フィルタリングでは、類似性検索の実行前にメタデータフィルターが評価され、絞り込みの厳しいフィルターを使用した場合でも、一致するベクトルが最大 5 倍多く返されます。また、S3 Vectors には、パスや URL などの値をフィルタリングするためのプレフィックス一致演算子 ($startsWith) も追加されました。これらの機能強化により、取得拡張生成 (RAG)、エージェンティック、セマンティック検索の各アプリケーションでフィルタリングを行う際に、より完全な結果を取得できるため、より関連",
+          "fingerprint": "daa844b9642e64204285c169"
+        },
+        "090c4919493aee5e3dd46681": {
+          "id": "090c4919493aee5e3dd46681",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda がセルフマネージド Apache Kafka イベントソースの OAuth 認証に対応",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+          "detail": "AWS Lambda がセルフマネージド Apache Kafka イベントソースの OAuth 認証に対応 — AWS Lambda が セルフマネージド Apache Kafka イベントソースマッピング (ESM) の OAuth 認証に対応し、お客様が自ら運用する Kafka クラスターや、Confluent Cloud、Aiven、Redpanda などのマネージドサービスへの接続時に OAuth 認証を利用できるようになりました。今回のリリースにより、お客様は自社の ID プロバイダーで Lambda の Kafka コンシューマーを認証できるようになり、Kafka アプリケーションに求められるセキュリティとコンプライアンスへの対応が容易になります。 決済処理、不正検出、リアルタイムのデータパイプラインなどの用途でイベント駆動型の Kafka ワークロードを構築するお客様は、Kafka ES",
+          "fingerprint": "8fd13a95a170311c7831c29b"
+        },
+        "5671f2ecc9a2dbfa82887c38": {
+          "id": "5671f2ecc9a2dbfa82887c38",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 C8gd および M8gd インスタンスが追加のリージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-c8gd-m8gd-additional-regions/",
+          "detail": "Amazon EC2 C8gd および M8gd インスタンスが追加のリージョンで利用可能に — 最大 11.4 TB のローカル NVMe ベースの SSD ブロックレベルストレージを備えた Amazon Elastic Compute Cloud (Amazon EC2) の C8gd インスタンスと M8gd インスタンスが、他のリージョンでも利用できるようになりました。C8gd インスタンスは、欧州 (ストックホルム)、アジアパシフィック (ムンバイ)、アジアパシフィック (ソウル) で利用できるようになりました。M8gd インスタンスは、欧州 (ストックホルム)、米国西部 (北カリフォルニア)、アジアパシフィック (シンガポール) で利用できるようになりました。これらのインスタンスは AWS Graviton4 プロセッサを搭載し、Graviton3 ベースのインスタンスよりも",
+          "fingerprint": "20f27acc3e696093f46debbf"
+        },
+        "27bd8960a13c43040c1b6b47": {
+          "id": "27bd8960a13c43040c1b6b47",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock が TwelveLabs Pegasus 1.5 モデルに対応開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+          "detail": "Amazon Bedrock が TwelveLabs Pegasus 1.5 モデルに対応開始 — Amazon Bedrock が、動画から時刻情報付きの構造化メタデータを生成する動画テキスト変換モデル、TwelveLabs Pegasus 1.5 に対応しました。これまで、大規模な動画ライブラリで目的の場面を見つけるには、その場面について問い合わせる前に、まず探す場所の見当を付ける必要がありました。Pegasus 1.5 は動画全体を解析し、出来事とその発生時刻をラベル付けして、映像をアプリケーションから検索できるデータに変換します。 ユーザーが、編集上の区切り、話者が切り替わる場面、スポーツのプレー、ブランドが映る場面など、ビジネスで重視する内容を定義すると、Pegasus 1.5 が動画全体を調べ、該当する場面を時刻情報とともに返します。Pegasus 1.5 は映像、音声、画面内",
+          "fingerprint": "8b203f5b148d0c661a70b301"
+        },
+        "da438b211e32a139ef73c7d3": {
+          "id": "da438b211e32a139ef73c7d3",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "OpenAI GPT-6.1 Sol、Amazon Bedrock で Ultrafast モードのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+          "detail": "OpenAI GPT-6.1 Sol、Amazon Bedrock で Ultrafast モードのサポートを開始 — 本日、AWS は Amazon Bedrock 上の OpenAI GPT-6.1 Sol で Ultrafast モードが利用可能になったことを発表しました。 Ultrafast モードでは、特に速度が重視されるワークロードにおいて、より高速な推論を実行できます。Amazon Bedrock の推論エンジンを使用することで、本番ワークロードに必要なパフォーマンス、セキュリティ、信頼性を確保できます。 GPT-6.1 Sol Ultrafast は、リアルタイムのコーディングアシスタント、インタラクティブエージェント、高速で高品質な応答が求められる顧客向けエクスペリエンスなど、レイテンシーの影響を受けやすいアプリケーションに使用できます。デベロッパーは GPT-6.1 Sol を利用すること",
+          "fingerprint": "e4a66cc0dd752b94ee305060"
+        },
+        "9a378bca73b25c4c8e321cbb": {
+          "id": "9a378bca73b25c4c8e321cbb",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Cost Explorer、Budgets、Dashboards が Amazon Bedrock の製品属性のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+          "detail": "AWS Cost Explorer、Budgets、Dashboards が Amazon Bedrock の製品属性のサポートを開始 — AWS Cost Explorer、AWS Budgets、AWS Cost Management Dashboards で、新しいディメンションである製品属性を使用して、Amazon Bedrock のコストをモデル、モデルプロバイダー、推論タイプ、機能別に分析できるようになりました。Cost Explorer と Dashboards では、この製品属性に基づいてコストをグループ化したり、絞り込んだりできます。Budgets では、同じ製品属性を使って、予算を絞り込めます。 今回のリリースにより、財務チームとプラットフォームチームは、Bedrock の支出の要因となっているモデルやワークロードを直接把握し、普段使用している請求管理ツールで必要な対策を講じることができます。製品属性では、モ",
+          "fingerprint": "fa26c5b7d2d80781de7ff10d"
+        },
+        "d89de4afa7e00d32c591c389": {
+          "id": "d89de4afa7e00d32c591c389",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS for Oracle、パッチ適用時のダウンタイム短縮に役立つマイナーバージョンアップグレードの事前チェックと新しい RDS イベントのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+          "detail": "Amazon RDS for Oracle、パッチ適用時のダウンタイム短縮に役立つマイナーバージョンアップグレードの事前チェックと新しい RDS イベントのサポートを開始 — Amazon Relational Database Service (Amazon RDS) for Oracle では、アップグレードの開始前や、予定されているメンテナンスウィンドウの開始前に、ユーザー自身でマイナーバージョンアップグレードの事前チェックを実行できるようになりました。また、パッチ適用中に DB インスタンスが再び接続を受け付けるようになったタイミングで、新しいイベントが発行されるようになりました。このイベントを利用すれば、残りのメンテナンスタスクがまだ進行中でもアプリケーションを再稼働できるため、パッチ適用中のアプリケーションのダウンタイムを短縮できます。 RDS for Oracle は、マイナーバージョンアップグレードの開始時に、アップグレードの完了を妨げる問題がない",
+          "fingerprint": "d4ac065387563170c0b76681"
+        },
+        "e903dfec961af9b5a3d08982": {
+          "id": "e903dfec961af9b5a3d08982",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon GuardDuty RDS Protection が Aurora と RDS のデータベースにおけるデータの不正流出と破壊の検出に対応",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+          "detail": "Amazon GuardDuty RDS Protection が Aurora と RDS のデータベースにおけるデータの不正流出と破壊の検出に対応 — Amazon GuardDuty は、RDS Protection の機能拡張を発表しました。ログインの異常に加え、Amazon Aurora PostgreSQL および Amazon RDS for PostgreSQL のデータベースを標的とする、データの不正流出や破壊を狙う攻撃も検出できるようになります。データアクティビティを対象とした RDS Protection として提供されるこの新機能は、機械学習 (ML) ベースの異常検出と統合された脅威インテリジェンスを使用して、データベースのクエリパターンを継続的にモニタリングします。また、エージェントの導入、インフラストラクチャの追加、データベースの設定変更を必要とせず、通常とは異なるデータアクティビティを検出するのに役立ちます。 攻",
+          "fingerprint": "04a6e3fad199e4ef54cc5dfe"
+        },
+        "580f4ff78c39ca7e0c2d510e": {
+          "id": "580f4ff78c39ca7e0c2d510e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 C8gb インスタンスの一般提供対象リージョンが追加",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
+          "detail": "Amazon EC2 C8gb インスタンスの一般提供対象リージョンが追加 — 本日より、最新世代の AWS Graviton4 プロセッサを搭載した Amazon Elastic Compute Cloud (Amazon EC2) C8gb インスタンスが、米国東部 (オハイオ)、米国西部 (北カリフォルニア)、欧州 (フランクフルト、アイルランド、パリ、ストックホルム)、アフリカ (ケープタウン) の各リージョンで利用できるようになりました。この新しいインスタンスは、AWS Graviton3 ベースの EC2 インスタンスと比較して、コンピューティングパフォーマンスが最大 30% 優れています。また、最大 300 Gbps の EBS 帯域幅と 1,600K IOPS に対応しており、同じサイズの同等の Graviton4 ベースインスタンスよりも高い EBS",
+          "fingerprint": "43bce87e2076a1204dc69394"
+        },
+        "4c628ecf3f92a3c0842878ed": {
+          "id": "4c628ecf3f92a3c0842878ed",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Batch が Amazon CloudWatch にジョブメトリクスを公開開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+          "detail": "AWS Batch が Amazon CloudWatch にジョブメトリクスを公開開始 — AWS Batch は Amazon CloudWatch にジョブメトリクスを公開し、バッチワークロード向けのネイティブなオブザーバビリティを提供するようになりました。AWS Batch はジョブのライフサイクル全体にわたってメトリクスを生成し、ジョブキューの状態、失敗率、ジョブの継続時間を可視化します。 AWS Batch は、ジョブの状態遷移と継続時間のメトリクスを、JobQueueName ディメンションと共に Amazon CloudWatch の AWS/Batch 名前空間に自動的に公開します。状態遷移メトリクスは、送信済み、実行中、成功、失敗など、特定の状態に入ったジョブの数を追跡します。継続時間メトリクスは、送信から実行可能までの時間や合計実行時間など、状態間でジョブが費や",
+          "fingerprint": "2613ee229e77d14102d8b100"
+        },
+        "bcde81d848dab64ebd3bd6b3": {
+          "id": "bcde81d848dab64ebd3bd6b3",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Z.ai の GLM 5.3 が Amazon Bedrock で一般提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+          "detail": "Z.ai の GLM 5.3 が Amazon Bedrock で一般提供開始 — Amazon Bedrock が Z.ai の GLM 5.3 をサポートするようになりました。これにより、エージェントコーディングと長期にわたるソフトウェアエンジニアリング作業のための強力な新しいオプションが提供されました。Amazon Bedrock で GLM 5.3 を使用するお客様は、AWS のセキュリティとコンプライアンス体制を備えた最新のオープンウェイトモデルにアクセスできます。 GLM 5.3 は Z.ai の主力モデルで、総パラメータが 753B、トークンあたり約 40B のアクティブパラメータを備えたエキスパートが混在するアーキテクチャで、GLM 5.2 と同じ基本モデルに基づいて構築されています。すべての改善は、スケーリングされたポストトレーニングによって推進されていま",
+          "fingerprint": "ccf993593efbee6bf7108a66"
+        },
+        "3f65870bdf103ae5c764542b": {
+          "id": "3f65870bdf103ae5c764542b",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS IAM アイデンティティセンターでアイデンティティストアのネットワークアクセスコントロールのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+          "detail": "AWS IAM アイデンティティセンターでアイデンティティストアのネットワークアクセスコントロールのサポートを開始 — AWS IAM アイデンティティセンターは、従業員が AWS アカウントやアプリケーションにシングルサインオンできるように設定するのに役立ちます。IAM アイデンティティセンターでは、ユーザーとグループを保存するアイデンティティストアのネットワークアクセスコントロールがサポートされるようになりました。リクエストの発信元のネットワークに基づいて、アイデンティティストア API と SCIM API へのアクセスを制限できます。カスタムアプリケーションとユーザープロビジョニングワークフローではアイデンティティストア API を使用してユーザーとグループの管理と検索を行い、外部 ID プロバイダーでは SCIM API を使用してユーザーとグループを同期します。 アイデンティティストア API で",
+          "fingerprint": "5d966211885c2016115cb3bc"
+        },
+        "80c7f2c5cc5775f01836afc9": {
+          "id": "80c7f2c5cc5775f01836afc9",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 Hpc8a インスタンスがアジアパシフィック (シンガポール) で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
+          "detail": "Amazon EC2 Hpc8a インスタンスがアジアパシフィック (シンガポール) で利用可能に — 今日から Amazon EC2 Hpc8a インスタンスが AWS アジアパシフィック (シンガポール) リージョンで使用できます。このインスタンスは、第 5 世代 AMD EPYC プロセッサ (旧コード名 Turin) を搭載しています。最大周波数が 4.5GHz の Hpc8a インスタンスは、Hpc7a インスタンスと比較して最大 40% 高いパフォーマンスと最大 25% 優れた料金パフォーマンスを実現し、お客様がコストを最適化しながらコンピューティング集約型のワークロードを高速化できるようにします。Hpc7a インスタンスと比較して、HPC8a インスタンスはメモリ帯域幅が最大 42% 高く、メモリを大量に消費するシミュレーションや科学計算ワークロードのパフォーマンスをさらに向上さ",
+          "fingerprint": "cdc1d8bfade508a5fbb83886"
+        },
+        "81ac821a5cc90034dbb08b20": {
+          "id": "81ac821a5cc90034dbb08b20",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 に Amazon Machine Images 用の共有タグが導入される",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+          "detail": "Amazon EC2 に Amazon Machine Images 用の共有タグが導入される — Amazon EC2 が AMI タグ共有をサポートするようになりました。これは、AMI の所有者が選択したタグを AMI が共有されているすべての AWS アカウントに表示できるようにする新機能です。AMI がアカウントと共有されているか、組織全体で共有されているか、公開されているかにかかわらず、共有タグは AMI と自動的に共有されるため、カスタムのタグ複製ワークフローを構築して維持する必要がありません。 AMI 所有者が任意のタグキーに「ec2:sharedTag/」プレフィックスを追加するだけで、AMI を共有しているすべてのアカウントはすぐにそのプレフィックスを見ることができます。これにより、AMI を共有した後に各アカウントにタグを複製するという運用上の負担が軽減されます。共有タ",
+          "fingerprint": "7b694b8887074d244850fd18"
+        },
+        "4de5c966dca99d145e689f50": {
+          "id": "4de5c966dca99d145e689f50",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Batch で Amazon EKS アクセスエントリ認証のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+          "detail": "AWS Batch で Amazon EKS アクセスエントリ認証のサポートを開始 — AWS Batch は、コンピューティング環境で Amazon EKS アクセスエントリ認証をサポートするようになりました。EKS アクセスエントリは、IAM プリンシパルに Kubernetes クラスターへのアクセス権を付与する API 主導型のアプローチを提供し、既存の aws-auth ConfigMap を補完します。AWS Batch はアクセスエントリメカニズムを使用してクラスターを認証できるようになり、クラスターのセットアップおよび認証ライフサイクル管理が簡単になりました。 開始するには、 CreateComputeEnvironment または UpdateComputeEnvironment API を使用して、クラスターを対象とするすべての AWS Batch コンピュ",
+          "fingerprint": "c1481d662fdf59e8858fc791"
+        },
+        "752c2468475c7d9d878b0f53": {
+          "id": "752c2468475c7d9d878b0f53",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon ECS がブルー/グリーン、リニア、カナリアの各デプロイで Amazon VPC Lattice をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+          "detail": "Amazon ECS がブルー/グリーン、リニア、カナリアの各デプロイで Amazon VPC Lattice をサポート — Amazon Elastic Container Service (Amazon ECS) では、 Amazon VPC Lattice を使用する ECS サービス向けに、組み込みのブルー/グリーン、リニア、カナリアの各デプロイ戦略がサポートされるようになりました。VPC Lattice を使用して VPC や AWS アカウントをまたいだサービス間通信を行うアプリケーションでは、更新をロールアウトする際に、Amazon ECS がネイティブに提供するマネージド型のトラフィック移行を利用できるようになりました。 今回のリリースにより、VPC Lattice を使用している ECS のお客様は、デプロイ中にトラフィックを制御された方法で移行できます。トラフィックの移行速度は、各リリースへの信",
+          "fingerprint": "35228607456adaaa30de7969"
+        },
+        "c6cf46db02ef8de8c9aa8204": {
+          "id": "c6cf46db02ef8de8c9aa8204",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Aurora DSQL が部分インデックスをサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+          "detail": "Amazon Aurora DSQL が部分インデックスをサポート — Amazon Aurora DSQL では、テーブルの特定のサブセットに対してインデックスを作成できるようになりました。テーブル全体のすべての行ではなく、条件を満たす行のみをインデックスに保存するため、クエリのパフォーマンスが向上し、インデックスのストレージコストを削減できます。 多くのテーブルには、小規模なワーキングセットと、それよりはるかに大規模な履歴データが混在しています。例えば、何年分にもわたる完了済みの注文の中に、未完了の注文が含まれているようなケースがあります。CREATE INDEX に WHERE 句を追加すると、そのワーキングセットのみを対象にインデックスを作成できます。テーブルが大きくなってもインデックスは小さく保たれ、それらの行を対象とするクエリで読み取るデータ量も少な",
+          "fingerprint": "8f4c313bcd38e7981715e8bc"
+        },
+        "78e2c9b6ceb9aa7ceae8e51e": {
+          "id": "78e2c9b6ceb9aa7ceae8e51e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EKS および Amazon EKS Distro で Kubernetes バージョン 1.37 のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+          "detail": "Amazon EKS および Amazon EKS Distro で Kubernetes バージョン 1.37 のサポートを開始 — Kubernetes バージョン 1.37 では、いくつかの新機能とバグ修正が導入されました。AWS は、 Amazon Elastic Kubernetes Service (EKS) と Amazon EKS Distro を使用して Kubernetes バージョン 1.37 を実行できるようになったことをお知らせします。本日より、EKS コンソール、eksctl コマンドラインインターフェイス、Infrastructure as Code ツールで、バージョン 1.37 を使用して新しい EKS クラスターを作成したり、既存のクラスターをバージョン 1.37 にアップグレードしたりできるようになります。 Kubernetes バージョン 1.37 では、いくつかの重要な改善が加えられ",
+          "fingerprint": "f57a35dd3230337a7126edd4"
+        },
+        "d433643bc17bffc058b9eaa2": {
+          "id": "d433643bc17bffc058b9eaa2",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AgentCore Gateway が VPC エンドポイント向けのプライベート TLS 証明書をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+          "detail": "AgentCore Gateway が VPC エンドポイント向けのプライベート TLS 証明書をサポート — Amazon Bedrock AgentCore Gateway では、MCP、OpenAPI、HTTP プロキシの各ターゲットで、プライベート認証局 (CA) によって署名された TLS 証明書がサポートされるようになりました。この機能により、独自のプライベート認証局が発行した TLS 証明書を使用するゲートウェイターゲットに、安全に接続できます。この機能を使用すると、中継用の Application Load Balancer を用意しなくても、VPC 内のプライベートエンドポイントにネイティブに接続できます。 プライベート CA 証明書は、Amazon VPC Lattice を基盤とするプライベートエンドポイントを使用するゲートウェイターゲットに登録できます。ゲートウェイは、PEM",
+          "fingerprint": "114517f1bf859b072cf8461c"
+        },
+        "2c38a276d1accc154cb578e3": {
+          "id": "2c38a276d1accc154cb578e3",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "GuardDuty Runtime Monitoring が AWS Security Hub の脅威分析プランに追加",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+          "detail": "GuardDuty Runtime Monitoring が AWS Security Hub の脅威分析プランに追加 — 本日、AWS は Amazon GuardDuty Runtime Monitoring が AWS Security Hub の脅威分析プランに含まれるようになったことを発表しました。Runtime Monitoring では、オペレーティングシステム、ネットワーク、ファイルのアクティビティを検査し、Amazon EC2 インスタンス、Amazon EKS クラスター、AWS Fargate 上の Amazon ECS タスクにおけるコンテナエスケープ、権限昇格、暗号通貨マイニングなどの脅威を検出します。Security Hub では、この保護に対する料金を簡素化された料金体系で請求するようになりました。 アカウントとリージョンで Security Hub を有効にしている場合、そのアカウ",
+          "fingerprint": "682104935565e29d18666834"
+        },
+        "4ba81a51a396d3a885392a74": {
+          "id": "4ba81a51a396d3a885392a74",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Well-Architected Agent をプレビューで提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+          "detail": "AWS Well-Architected Agent をプレビューで提供開始 — AWS は、AWS Trusted Advisor と AWS Well-Architected Tool の次世代の進化形である AI を活用したサービスの AWS Well-Architected Agent のプレビューを発表しました。このエージェントは、コスト、セキュリティ、パフォーマンス、信頼性にわたって AWS インフラストラクチャを分析して最適化し、ビジネス目標に基づいて優先順位を付けた、状況に応じた推奨事項を提供します。主要なメトリクスとアプリケーショントポロジーを Well-Architected ベストプラクティスと自動的に相関させ、Terraform、CDK テンプレート、CloudFormation テンプレートを分析して、必要に応じて自動化に対応した修正を提供します",
+          "fingerprint": "d131d51de9ddbbe5245a28f1"
+        },
+        "dbd68d64af627dc426b6de82": {
+          "id": "dbd68d64af627dc426b6de82",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon DynamoDB、Amazon S3 へのフィルター付きエクスポートを導入",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+          "detail": "Amazon DynamoDB、Amazon S3 へのフィルター付きエクスポートを導入 — Amazon DynamoDB では、テーブルのフィルター付きエクスポートがサポートされるようになりました。Amazon S3 へのエクスポートでは、分析、データ共有、その他のオフラインでの用途のために、テーブルのデータをすべてエクスポートすることも、指定した期間の増分データのみをエクスポートすることもできます。フィルター付きエクスポートでは、エクスポートする項目と属性を正確に指定できるため、ユースケースに関連するデータのみを含むデータセットを生成できます。 フィルター付きエクスポートでは、キー属性に対するキー条件式と、任意の属性に対するフィルター式を使用して、エクスポートする項目を選択し、射影式を使用して含める属性を指定します。そのため、必要な項目と属性のみをエクスポートできます。このデー",
+          "fingerprint": "ed66432ba2860b94d0a7cc5e"
+        },
+        "5ad85bc241c7cd54671abae8": {
+          "id": "5ad85bc241c7cd54671abae8",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 Object Lock のイベント保留による可変保持が AWS GovCloud (米国) リージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
+          "detail": "Amazon S3 Object Lock のイベント保留による可変保持が AWS GovCloud (米国) リージョンで利用可能に — Amazon S3 Object Lock で、イベント保留による可変保持が AWS GovCloud (米国東部) および AWS GovCloud (米国西部) で利用できるようになりました。 Amazon S3 Object Lock の可変保持を使用すると、契約の締結や監査の完了など、将来のイベントを起点として必要な保持期間が開始されるオブジェクトに、Write-Once-Read-Many (WORM) 保護を適用できます。オブジェクトにイベント保留を設定して保持期間を指定すると、S3 によって保留中はオブジェクトが保護され、保留を解除すると、指定した期間にわたってオブジェクトが保持されます。削除すると保護が直ちに終了するリーガルホールドとは異なり、イベント保留では、トリガーとなる",
+          "fingerprint": "07ad8dc20f0a437a727cd766"
+        },
+        "dfa68a28c01d3c5c746c1304": {
+          "id": "dfa68a28c01d3c5c746c1304",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Transfer Family、マネージドワークフローでカスタム CloudWatch ロググループをサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups/",
+          "detail": "AWS Transfer Family、マネージドワークフローでカスタム CloudWatch ロググループをサポート — AWS Transfer Family で、マネージドワークフローの実行ログ用に Amazon CloudWatch Logs のカスタムロググループを選択できるようになりました。ワークフローログを整理して、個々のワークフローを個別にモニタリングしたり、関連するワークフローのログをまとめたりできます。 これまでは、Transfer Family サーバーにアタッチされたすべてのワークフローの実行ログが、そのサーバーの CloudWatch ロググループに送信されていたため、ワークフローごとに個別のログ送信先を設定することはできませんでした。今回、AWS Transfer Family コンソールまたは API を使用してワークフローを作成するときに、サーバーのロググループとは別に、ワークフロ",
+          "fingerprint": "c2b7763b6d3c625064fa2ea5"
+        },
+        "bc98a66e6a1b31d828cfdd12": {
+          "id": "bc98a66e6a1b31d828cfdd12",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Security Hub、セキュリティ上のリスクを優先順位付けして修正するための修復プランを導入",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+          "detail": "AWS Security Hub、セキュリティ上のリスクを優先順位付けして修正するための修復プランを導入 — AWS Security Hub では、共通の根本原因を持つ、関連するセキュリティ上のリスクの検出結果をグループ化する修復プランを利用できるようになりました。これにより、リスクに 1 件ずつ対処するのではなく、設定に誤りがあるリソースやアクセスを過度に許容するポリシーなど、根本原因となっているリソースを 1 つ修正することで、複数のリスクをまとめて解消したり、重大度を下げたりできます。 各修復プランには、優先順位付けに関するガイダンス (重大、高、中、低) や影響評価に加え、AWS CLI、Terraform、CloudFormation、Python、CDK など、さまざまな形式の例を含む詳細なステップバイステップの手順が用意されています。修復プランには自動的に優先順位が付けられ、リスクの",
+          "fingerprint": "4eb6f6bc2d4a0fdec938ce8f"
+        },
+        "c312baed9a4c35f557a5bde9": {
+          "id": "c312baed9a4c35f557a5bde9",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Route 53 グローバルリゾルバーと DNS ファイアウォールで DNS 分析とインサイトを提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+          "detail": "Route 53 グローバルリゾルバーと DNS ファイアウォールで DNS 分析とインサイトを提供開始 — Route 53 グローバルリゾルバーと DNS ファイアウォールで、Amazon CloudWatch とのネイティブ統合による DNS 分析とインサイトを利用できるようになりました。ネットワーク管理者とセキュリティチームは、これらの新機能を使用することで、DNS クエリのパターンを包括的に可視化し、DNS ファイアウォールルールの有効性のモニタリング、異常なアクティビティの検出、DNS インフラストラクチャのパフォーマンスの最適化を行えます。DNS 分析とインサイトは、Amazon CloudWatch、Route 53 グローバルリゾルバー、DNS ファイアウォールが提供されているすべての AWS リージョンで利用できます。 CloudWatch のメトリクスと Contributor",
+          "fingerprint": "e72e88167cdc718cd4d48e09"
+        },
+        "2a9c36382a53a2e04bcf4eae": {
+          "id": "2a9c36382a53a2e04bcf4eae",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EKS Auto Mode で高度なコンピューティング設定のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/eks-auto-mode-advanced-compute-config/",
+          "detail": "Amazon EKS Auto Mode で高度なコンピューティング設定のサポートを開始 — Amazon Elastic Kubernetes Service (EKS) Auto Mode では、NodeClass Kubernetes リソースで直接 kubelet 設定、Linux カーネル sysctl、hugepages を調整できるようになりました。EKS Auto Mode で特定のノードチューニングを必要とするワークロードを実行できるようになりました。これにより、ノードのプロビジョニング、スケーリング、パッチ適用、アップグレードが自動的に行われます。 NodeClass の新しい AdvancedCompute フィールドを使用すると、CI/CD パイプラインのルートレスコンテナビルド用のユーザー名前空間を設定したり、ディスクやメモリの負荷からノードを保護するために",
+          "fingerprint": "8a4be6ce914d687b9432695d"
+        },
+        "02d87103ca9d801b4787c799": {
+          "id": "02d87103ca9d801b4787c799",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Secrets Manager コンソールの実行可能な推奨事項でシークレットのセキュリティ体制を改善",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
+          "detail": "AWS Secrets Manager コンソールの実行可能な推奨事項でシークレットのセキュリティ体制を改善 — ​​​AWS Secrets Manager が AWS 推奨アクションフレームワーク と統合され、シークレットの状況に応じた、実行可能な推奨事項を Secrets Manager コンソールで直接確認できるようになりました。​ ​今回のリリースにより、各シークレットとそれに応じた推奨事項を確認し、コンソールを離れることなく、セキュリティ体制の改善やベストプラクティスへの準拠に取り組むことができます。例えば、ローテーションの設定が必要なシークレットの特定、暗号化でのデフォルトのサービス提供キーからカスタマーマネージドキーへの切り替え、シークレットの設定の改善を、すべて 1 つの画面から行えます。 ​この機能は、AWS Secrets Manager が提供されているすべての AWS 商用 リ",
+          "fingerprint": "c563e3c73b540beb9347305d"
+        },
+        "ed8ff1751c1969669603ba3b": {
+          "id": "ed8ff1751c1969669603ba3b",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS IAM アイデンティティセンター、マルチリージョンのサポートをさらに多くの AWS リージョンに拡大",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
+          "detail": "AWS IAM アイデンティティセンター、マルチリージョンのサポートをさらに多くの AWS リージョンに拡大 — IAM アイデンティティセンターを使用すると、ワークフォースアイデンティティを AWS に一度接続すれば、AWS アカウントやアプリケーションへのアクセスを効率的に管理できます。今回、IAM アイデンティティセンターを AWS オプトインリージョンにレプリケートできるようになったほか、AWS GovCloud (米国) リージョンと AWS 中国リージョン内のリージョン間でもレプリケートできるようになりました。これまで、マルチリージョンのサポートは、デフォルトで有効になっている AWS 商用リージョンで利用できました。今回の対応範囲の拡大により、AWS アカウントへのユーザーアクセスの耐障害性を向上させ、ビジネスニーズに最適な AWS リージョンに AWS アプリケーションをデプロイできるよ",
+          "fingerprint": "794399752098a126487bda65"
+        }
+      },
+      "last_ok": "2026-10-20T10:22:40.186892+00:00",
+      "latest_count": 47
+    }
+  },
+  "updated_at": "2026-10-20T10:22:40.186982+00:00"
+}
