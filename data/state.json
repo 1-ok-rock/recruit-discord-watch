@@ -685,11 +685,137 @@
           "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
           "detail": "AWS IAM アイデンティティセンター、マルチリージョンのサポートをさらに多くの AWS リージョンに拡大 — IAM アイデンティティセンターを使用すると、ワークフォースアイデンティティを AWS に一度接続すれば、AWS アカウントやアプリケーションへのアクセスを効率的に管理できます。今回、IAM アイデンティティセンターを AWS オプトインリージョンにレプリケートできるようになったほか、AWS GovCloud (米国) リージョンと AWS 中国リージョン内のリージョン間でもレプリケートできるようになりました。これまで、マルチリージョンのサポートは、デフォルトで有効になっている AWS 商用リージョンで利用できました。今回の対応範囲の拡大により、AWS アカウントへのユーザーアクセスの耐障害性を向上させ、ビジネスニーズに最適な AWS リージョンに AWS アプリケーションをデプロイできるよ",
           "fingerprint": "794399752098a126487bda65"
+        },
+        "181e71fef237f8a909642476": {
+          "id": "181e71fef237f8a909642476",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock AgentCore のウェブ検索が AWS GovCloud と 3 つのリージョンに拡大",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+          "detail": "Amazon Bedrock AgentCore のウェブ検索が AWS GovCloud と 3 つのリージョンに拡大 — Amazon Bedrock AgentCore のウェブ検索が、新たに 4 つの AWS リージョンで利用できるようになりました。対象のリージョンは、米国東部 (オハイオ)、米国西部 (オレゴン)、アジアパシフィック (シドニー)、AWS GovCloud (米国西部) です。ウェブ検索は、AI エージェントがウェブ上の最新情報に基づいて回答できるようにするフルマネージド型のツールです。これにより、調査、要約、質問応答などのタスクで、より正確で最新の回答が可能になります。 今回の拡大により、お客様は、アプリケーションやエンドユーザーに近い場所で、より低いレイテンシーでウェブ情報を取得するエージェントを構築できます。政府機関のワークロードを扱うお客様は、AWS GovCloud (米国西部)",
+          "fingerprint": "65e5bc06bc1972f0de6b9d16"
+        },
+        "7a22f07244d6e69d465825ab": {
+          "id": "7a22f07244d6e69d465825ab",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon EC2 T8i インスタンスが南米 (サンパウロ) で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
+          "detail": "Amazon EC2 T8i インスタンスが南米 (サンパウロ) で利用可能に — Amazon Elastic Compute Cloud (Amazon EC2) T8i インスタンスが南米 (サンパウロ) で利用できるようになりました。これらのインスタンスは、AWS 専用のカスタム第 6 世代 Intel Xeon 6 プロセッサを搭載し、最新の第 6 世代 AWS Nitro Card 上に構築されています。T8i インスタンスは、前世代の T3 インスタンスと比較して最大 30% 優れた料金パフォーマンスを実現します。nano、micro、small、medium の 4 つのサイズが提供されます。これらのインスタンスは、低から中程度の CPU 使用率を必要とするワークロード向けに設計されています。対象となるワークロードには、データ処理、ログインゲートウェイ、小規",
+          "fingerprint": "2a18a7b5e9fd69d6d8378bdb"
+        },
+        "64f294c96062f74ac6ef2d3f": {
+          "id": "64f294c96062f74ac6ef2d3f",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda Durable Execution SDK for Go の一般提供を開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+          "detail": "AWS Lambda Durable Execution SDK for Go の一般提供を開始 — 本日、AWS は AWS Lambda Durable Execution SDK for Go の一般提供を発表しました。これにより、Go デベロッパーは Lambda 永続関数を使用して、レジリエントで長時間実行されるワークフローを構築できます。この SDK を使用すると、デベロッパーはカスタムの進捗追跡を実装することなく、インフラストラクチャのオートメーション、承認ゲートを備えたデプロイのロールアウト、AI モデルを呼び出して人間によるレビューのために一時停止するパイプラインなど、複数のステップからなるアプリケーションを Go コードで直接作成できます。 Lambda 永続関数は、進捗を自動的にチェックポイントし、外部イベントを待機する間は最大 1 年間実行を一時停止するオペレーション",
+          "fingerprint": "ad0c927f78546b3a6932f8e5"
+        },
+        "954771cb9daa4cf3f66227a0": {
+          "id": "954771cb9daa4cf3f66227a0",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS HealthOmics が共有 VPC のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
+          "detail": "AWS HealthOmics が共有 VPC のサポートを開始 — AWS HealthOmics では、アカウント間での VPC の共有がサポートされるようになりました。これにより、AWS Resource Access Manager (RAM) を使用して、他の AWS アカウントが管理する Amazon Virtual Private Cloud (VPC) 内のリソースにワークフローからアクセスできます。 AWS HealthOmics は、フルマネージドのバイオインフォマティクスワークフローを大規模に使用して、ヘルスケアやライフサイエンスのお客様が科学的ブレークスルーを加速できるよう支援する、HIPAA 適格サービスです。 共有 VPC を使用すると、お客様は 1 つの VPC のサブネットとセキュリティグループを組織内の複数のアカウントで共有す",
+          "fingerprint": "df3d89f8a1bd24dab23af2c5"
+        },
+        "f0bfd87d9706dfebf5a8eca2": {
+          "id": "f0bfd87d9706dfebf5a8eca2",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Time Sync Service がすべての商用リージョンにおいて新たに 135 種類の EC2 インスタンスタイプでマイクロ秒精度の時刻をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
+          "detail": "Amazon Time Sync Service がすべての商用リージョンにおいて新たに 135 種類の EC2 インスタンスタイプでマイクロ秒精度の時刻をサポート — Amazon Time Sync Service では、すべての商用リージョンにおいて、新たに 135 種類の EC2 インスタンスタイプでマイクロ秒精度の時刻がサポートされるようになりました。対象は 12 のインスタンスファミリーにわたります。マイクロ秒精度の時刻とナノ秒精度のハードウェアタイムスタンプは、Amazon の実績あるネットワークインフラストラクチャと AWS Nitro System を基盤に構築され、Nitro System で実行されている参照クロックを直接使用しています。これにより、お客様はアプリケーションイベントの順序付け、単方向ネットワークレイテンシーの測定、分散型アプリケーションのトランザクション速度の向上を簡単に行えます。 新たにサポートされるファミリーには、8",
+          "fingerprint": "930cae81a767fbb2719e6788"
+        },
+        "b88b6d56f119d20a0fd5b640": {
+          "id": "b88b6d56f119d20a0fd5b640",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Transform for full-stack Windows modernization が Aurora PostgreSQL のクロスリージョンデプロイをさらに 7 つのリージョンでサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-transform-full-stack-aurora-cross-region",
+          "detail": "AWS Transform for full-stack Windows modernization が Aurora PostgreSQL のクロスリージョンデプロイをさらに 7 つのリージョンでサポート — 本日より、AWS Transform for full-stack Windows modernization では、変換後の Amazon Aurora PostgreSQL データベースのクロスリージョンデプロイがサポートされるようになりました。また、新たに 7 つの AWS リージョンで利用できるようになりました。これらの変更により、お客様は SQL Server のモダナイズ後に、モダナイズされたデータベースのデプロイ先をより細かく制御でき、データレジデンシー、レイテンシー、およびディザスタリカバリの要件に対応できます。 お客様は、SQL Server のデータベース設計言語 (DDL) ファイルをアップロードし、変換計画でターゲットの AWS リージョンを設定することで、データベー",
+          "fingerprint": "11aaffd9bf6d7e436f4499ae"
+        },
+        "81c9f6ad22346fb1d6ac01fc": {
+          "id": "81c9f6ad22346fb1d6ac01fc",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudFront が VPC オリジンのデュアルスタックサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+          "detail": "Amazon CloudFront が VPC オリジンのデュアルスタックサポートを開始 — Amazon CloudFront では、新しいデュアルスタック VPC オリジンにより、Amazon Virtual Private Cloud (Amazon VPC) 内のオリジンへのエンドツーエンドの IPv6 配信がサポートされるようになりました。VPC オリジンを使用すると、お客様は Application Load Balancer (ALB)、Network Load Balancer (NLB)、および EC2 インスタンスを、自身の CloudFront ディストリビューションからのみアクセス可能なプライベートサブネットに配置しておくことができます。デュアルスタックのサポートにより、お客様はオリジンをインターネットに公開することなく、これらのプライベートオリジンまで一貫し",
+          "fingerprint": "81a26f06d06d8d0af04802ec"
+        },
+        "89574515cb4f395a123eef52": {
+          "id": "89574515cb4f395a123eef52",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "PostgreSQL 19 RC1 が Amazon RDS データベースプレビュー環境で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
+          "detail": "PostgreSQL 19 RC1 が Amazon RDS データベースプレビュー環境で利用可能に — 本日より、 Amazon RDS for PostgreSQL 19 リリース候補版 1 (RC1) が Amazon RDS データベースプレビュー環境 で利用できるようになりました。これにより、Amazon RDS for PostgreSQL で PostgreSQL 19 のプレリリース版を評価できます。 PostgreSQL 19 RC1 は安定性を重視したリリースで、Beta 4 のテスト期間で得られたバグ修正と改善が含まれています。このリリースでは、複雑なテキスト検索式のエラー処理の改善、並列自動バキュームの堅牢化、GIN インデックスのメンテナンスの信頼性向上が行われています。詳細については、PostgreSQL コミュニティによる発表を参照してください。詳細については、 P",
+          "fingerprint": "accf4367ea980c6df1532204"
+        },
+        "913de681dd0016427033e19e": {
+          "id": "913de681dd0016427033e19e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 Tables を使用した Amazon Redshift のシステムテーブルの長期保持が、追加の AWS リージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
+          "detail": "Amazon S3 Tables を使用した Amazon Redshift のシステムテーブルの長期保持が、追加の AWS リージョンで利用可能に — Amazon Redshift のシステムテーブルデータを、 Amazon S3 Tables とのネイティブ統合により長期保持できる機能が、追加の AWS リージョンで利用できるようになりました。この機能により、現在の 7 日間という上限を超えて Redshift システムテーブルデータの保持期間を設定でき、コンプライアンス、監査、およびオブザーバビリティの要件を満たすことができます。機能を有効にすると、AWS はシステムテーブルデータを Apache Iceberg 形式 で S3 Tables に自動的に書き込み、パーティション分割、コンパクション、および保持期間の管理を自動で行います。 お客様は、クエリパフォーマンスの監視、データウェアハウスアクティビティの監査、コンプライアンス要件",
+          "fingerprint": "27ef27da5a65aeaf27470636"
+        },
+        "44b1df812184dec2ca739cc7": {
+          "id": "44b1df812184dec2ca739cc7",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon S3 Metadata が 6 つの AWS リージョンで新たに利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-s3-metadata-six-additional-regions/",
+          "detail": "Amazon S3 Metadata が 6 つの AWS リージョンで新たに利用可能に — Amazon S3 Metadata が、新たに 6 つの AWS リージョンで利用できるようになりました。対象のリージョンは、アジアパシフィック (ハイデラバード)、アジアパシフィック (マレーシア)、アジアパシフィック (ニュージーランド)、アジアパシフィック (台北)、アジアパシフィック (タイ)、メキシコ (中部) です。 S3 Metadata は、S3 データを即座に検出して把握するための迅速かつ簡単な方法です。メタデータは自動的に生成されてほぼリアルタイムで更新され、簡単にクエリできます。これにより、ビジネス分析やリアルタイム推論アプリケーションといった用途に S3 データをキュレート、特定、使用しやすくなります。S3 Metadata は、新しいオブジェクトと既存のオブジェク",
+          "fingerprint": "8722144006aefeb8a209e48f"
+        },
+        "6318633a6eabbb490ef5c97f": {
+          "id": "6318633a6eabbb490ef5c97f",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Security Hub CSPM が Cyber Risk Institute プロファイルバージョン 2.2 のサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/",
+          "detail": "AWS Security Hub CSPM が Cyber Risk Institute プロファイルバージョン 2.2 のサポートを開始 — AWS Security Hub CSPM では、Cyber Risk Institute (CRI) プロファイルに準拠した自動セキュリティチェックがサポートされるようになりました。CRI プロファイルは、金融機関および業界団体による非営利の連合体である Cyber Risk Institute が開発したサイバーセキュリティフレームワークです。このフレームワークは、金融サービス業界に適用されるサイバーセキュリティおよび規制上の要求事項を、共通の要件セットに統合しています。これにより、組織は一度の自己評価で、複数の規制に対する報告を行うことができます。AWS Security Hub CSPM は、CRI プロファイル v2.2 の要件の一部に対応する 404 個のコントロールを提供します",
+          "fingerprint": "e3c36ca36ad213fdfa736684"
+        },
+        "22f3a303226890e6b296b82f": {
+          "id": "22f3a303226890e6b296b82f",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudWatch がログルーティングとチェーン化されたログパーサーを提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+          "detail": "Amazon CloudWatch がログルーティングとチェーン化されたログパーサーを提供開始 — Amazon CloudWatch では、パイプラインによる条件付きログルーティングとチェーン化されたパーサーがサポートされるようになりました。これにより、ログデータの変換方法や送信先の CloudWatch ロググループをより細かく制御できます。CloudWatch パイプラインは、インフラストラクチャを管理することなく、テレメトリの取り込み、変換、CloudWatch へのルーティングを行うことができるフルマネージドサービスです。 ログパイプラインでは、本来は異なる場所に送るべき複数の種類のイベントが混在していることがよくあります。また、個々のイベントで、あるログ形式の中に別のログ形式がネストされている場合もあります。条件付きログルーティングでは、処理済みのフィールドを評価する条件に基づ",
+          "fingerprint": "8377ab4ac6cb19328f5aa512"
+        },
+        "a0712567179fa05c33f293b9": {
+          "id": "a0712567179fa05c33f293b9",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda の再帰ループ検出が Amazon EventBridge のカスタムイベントバスのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
+          "detail": "AWS Lambda の再帰ループ検出が Amazon EventBridge のカスタムイベントバスのサポートを開始 — AWS Lambda の再帰ループ検出では、Lambda イベント関数と Amazon EventBridge のカスタムイベントバス の間の再帰ループを自動的に検出して停止できるようになりました。これにより、制御不能になったワークロードによる意図しない使用や予期しない料金の発生を防ぐことができます。AWS アカウントでデフォルトで有効になっている Lambda の再帰ループ検出 は、AWS のサポートされているサービスによって Lambda イベント関数が再帰的に呼び出されたことを自動的に識別し、ループを停止します。 EventBridge のカスタムイベントバスを使用して Lambda イベント関数を呼び出すことで、インフラストラクチャを管理することなく、オートメーションワークフローの構",
+          "fingerprint": "b0cbf11f41b8601f50ed3615"
+        },
+        "b5eb4920f346f1afbf79e2d0": {
+          "id": "b5eb4920f346f1afbf79e2d0",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS が Microsoft SQL Server の最新の累積更新プログラムのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cumulative-update-microsoft-sql-server/",
+          "detail": "Amazon RDS が Microsoft SQL Server の最新の累積更新プログラムのサポートを開始 — Amazon Relational Database Service (Amazon RDS) for SQL Server では、Microsoft SQL Server の最新の累積更新プログラム (CU) がサポートされるようになりました。このリリースには、Microsoft SQL Server 2025 CU8 KB5104822 (RDS バージョン 17.00.4075.5.v1) のサポートが含まれます。 これらの更新プログラムに含まれる改善点および修正点の詳細については、KB5104822 に関する Microsoft のドキュメントを参照してください。Amazon RDS マネジメントコンソールを使用するか、AWS SDK または CLI を使用して、Amazon RDS",
+          "fingerprint": "306b7f761d71236c11502bed"
         }
       },
-      "last_ok": "2026-10-20T10:22:40.186892+00:00",
-      "latest_count": 47
+      "last_ok": "2026-10-23T05:50:38.128148+00:00",
+      "latest_count": 50
     }
   },
-  "updated_at": "2026-10-20T10:22:40.186982+00:00"
+  "updated_at": "2026-10-23T05:50:38.128295+00:00"
 }
