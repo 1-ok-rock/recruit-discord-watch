@@ -811,11 +811,128 @@
           "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cumulative-update-microsoft-sql-server/",
           "detail": "Amazon RDS が Microsoft SQL Server の最新の累積更新プログラムのサポートを開始 — Amazon Relational Database Service (Amazon RDS) for SQL Server では、Microsoft SQL Server の最新の累積更新プログラム (CU) がサポートされるようになりました。このリリースには、Microsoft SQL Server 2025 CU8 KB5104822 (RDS バージョン 17.00.4075.5.v1) のサポートが含まれます。 これらの更新プログラムに含まれる改善点および修正点の詳細については、KB5104822 に関する Microsoft のドキュメントを参照してください。Amazon RDS マネジメントコンソールを使用するか、AWS SDK または CLI を使用して、Amazon RDS",
           "fingerprint": "306b7f761d71236c11502bed"
+        },
+        "056c5cafbdea1bc8c7c63828": {
+          "id": "056c5cafbdea1bc8c7c63828",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock で Claude モデルの構造化出力が利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+          "detail": "Amazon Bedrock で Claude モデルの構造化出力が利用可能に — Amazon Bedrock は、bedrock-runtime および bedrock-mantle の両方のエンドポイントにおいて、すべての Anthropic Claude モデルで構造化出力をサポートするようになりました。boto3 と bedrock-runtime API を通じて Claude を呼び出す場合でも、Messages API と bedrock-mantle エンドポイントを通じて呼び出す場合でも、カスタム解析、再試行ロジック、または後処理を行うことなく、定義された構造に適合するスキーマ準拠の JSON 応答を受け取ることができるようになりました。 Amazon Bedrock の Claude での構造化出力により、さまざまな業界にわたって、信頼性が高くスキーマ",
+          "fingerprint": "a34e395ba24c3fdde116607e"
+        },
+        "d45d9723b038a0ad1152f337": {
+          "id": "d45d9723b038a0ad1152f337",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS IAM アイデンティティセンターが Active Directory からの ID ソース変更を簡素化",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+          "detail": "AWS IAM アイデンティティセンターが Active Directory からの ID ソース変更を簡素化 — AWS IAM アイデンティティセンターは、ID ソースを Active Directory から Okta や Microsoft Entra ID などの外部 ID プロバイダー (IdP)、またはアイデンティティセンターディレクトリに変更する際、従業員の ID とその割り当てを保持するようになりました。具体的には、ユーザー、グループ、グループメンバーシップ、アクセス許可セットの割り当て、およびアプリケーションの割り当てが保存されます。これまでは、この変更を行うと AWS IAM アイデンティティセンター上でそれらを再作成する必要がありました。 AWS IAM アイデンティティセンターは、従業員の ID を AWS に一度接続するだけで、複数の AWS アプリケーションやアカウント全体で",
+          "fingerprint": "5fc5c7458ace702d026f95bc"
+        },
+        "6571da527d86adfbd1ce37e1": {
+          "id": "6571da527d86adfbd1ce37e1",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock Guardrails がコンテキストグラウンディングチェックの Standard ティアをサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+          "detail": "Amazon Bedrock Guardrails がコンテキストグラウンディングチェックの Standard ティアをサポート — Amazon Bedrock Guardrails は、モデルの応答が参照ソースに基づいているか、およびユーザーのクエリに関連しているかを確認することでハルシネーションを検出およびフィルタリングする、コンテキストグラウンディングチェックの Standard ティアを提供するようになりました。Standard ティアは Classic ティアよりも堅牢です。推論や会話コンテンツを含む応答をサポートし、同じ意味を持つ異なる言い回しの応答を一貫してスコアリングし、コンテンツフィルターや拒否されたトピックの Standard ティアに適合する、より包括的な言語サポートを提供します。Amazon Bedrock Guardrails は、ApplyGuardrail API を通じて、あらゆる基盤モデ",
+          "fingerprint": "dd7bf4f3745810bb32f286b1"
+        },
+        "880ada719932ada1f26b3404": {
+          "id": "880ada719932ada1f26b3404",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock Advanced Prompt Optimization がプロンプトの短縮をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+          "detail": "Amazon Bedrock Advanced Prompt Optimization がプロンプトの短縮をサポート — Amazon Bedrock Advanced Prompt Optimization は、プロンプトの短縮をサポートするようになりました。これは、評価スコアを維持または向上させながら、プロンプトの長さを短くするオプション設定です。Advanced Prompt Optimization は、独自の評価基準に対して、Amazon Bedrock 上の任意のモデルのプロンプトを最適化します。これまでは、最適化は品質のみに焦点を当てていました。そのため、最適化されたプロンプトは元のプロンプトよりも長くなることがよくありました。プロンプトが長くなると入力トークンのコストが上昇し、最初のトークンが出力されるまでの時間が増加する可能性があり、これは大規模な運用やレイテンシーの影響を受けやすいアプリケー",
+          "fingerprint": "ef176515ae58a635f60a2254"
+        },
+        "4ee1a3d6f325036499a1a51e": {
+          "id": "4ee1a3d6f325036499a1a51e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudWatch Omni がいくつかの AWS リージョンで新たに提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/",
+          "detail": "Amazon CloudWatch Omni がいくつかの AWS リージョンで新たに提供開始 — AWS は、Amazon CloudWatch Omni がさらに 8 つの AWS リージョンで利用できるようになったことを発表しました。CloudWatch Omni は AI を活用したオブザーバビリティエクスペリエンスで、チームとそのチームが運用するアプリケーションを中心に構成されており、アプリケーションとエージェントの監視およびトラブルシューティングを 1 か所で行うのに役立ちます。OpenTelemetry の相互運用性と CloudWatch の拡張性と信頼性を兼ね備え、シングルサインオン (SSO) によるスタンドアロンウェブエクスペリエンスとして、またはローカルの IDE 拡張機能として、作業環境に合わせて利用できます。 CloudWatch Omni では、中央アカウント",
+          "fingerprint": "aa38f18ae1950c6056273878"
+        },
+        "698910ec9b48d6337be5dd2c": {
+          "id": "698910ec9b48d6337be5dd2c",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "EC2 Image Builder が ASG と統合され、より高速なイメージビルドが可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
+          "detail": "EC2 Image Builder が ASG と統合され、より高速なイメージビルドが可能に — EC2 Image Builder では、Auto Scaling グループ (ASG) の既存のインスタンスを使用してイメージビルドができるようになりました。これにより、新しいインスタンスの起動とブートストラップに費やす時間を省き、すでに実行中の EC2 インスタンスを再利用することで、より迅速なビルドが可能になります。 この機能を使用すると、Image Builder のインフラストラクチャ設定に ASG を指定できます。ビルド時に新しいインスタンスを起動する代わりに、Image Builder はこの ASG からすでに実行中のインスタンスを選択し、ビルドコンポーネントを適用してイメージを作成します。ASGは、インスタンスがビルドに使用されるたびにプールを継続的に補充し、後続のパイプラ",
+          "fingerprint": "f27edbb2cd635aa86fea0ce3"
+        },
+        "432b7f248855e98f26da2e2a": {
+          "id": "432b7f248855e98f26da2e2a",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Grok 4.7 が AWS GovCloud (米国) の Amazon Bedrock で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+          "detail": "Grok 4.7 が AWS GovCloud (米国) の Amazon Bedrock で利用可能に — Amazon Bedrock では、AWS GovCloud (米国) におけるコーディング、エージェントタスク、ナレッジワーク向けに構築されたフロンティアモデルである SpaceXAI Grok 4.7 がサポートされるようになりました。 Grok 4.7 は Grok 4.6 をベースにしており、複合ドキュメント処理の向上、計画立案とエラー回復を備えたリポジトリ規模でのより信頼性の高いコーディング、そしてフォーム入力やポータルナビゲーションを行うブラウザ利用エージェントの機能強化が実現されています。 Amazon Bedrock コンソール で Grok 4.7 の使用を開始することも、サポートされている Amazon Bedrock API を使用するプログラムを通じて使用を開始するこ",
+          "fingerprint": "506fbe32b9e6014860c381de"
+        },
+        "a012c148f042ec2e66daef6d": {
+          "id": "a012c148f042ec2e66daef6d",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS IAM アイデンティティセンターがアイデンティティストアにおけるユーザーとグループの楽観的ロックをサポート開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+          "detail": "AWS IAM アイデンティティセンターがアイデンティティストアにおけるユーザーとグループの楽観的ロックをサポート開始 — IAM アイデンティティセンターは、従業員が AWS アカウントやアプリケーションにシングルサインオンできるように設定するのに役立ちます。アイデンティティストア内のユーザーとグループに楽観的ロックを使用できるようになりました。これにより、前回の読み込み以降にユーザーまたはグループが変更されていない場合にのみ、更新および削除のリクエストが成功するようになりました。これは、複数の管理者または自動化されたワークフローが同じユーザーまたはグループをほぼ同時に変更する場合に役立ちます。これまでは 1 つの書き込みが通知なしでもう片方の書き込みを上書きしていました。 各ユーザーとグループには、Revision 値が付与されるようになり、SCIM プロビジョニング、Active Directory 同期、",
+          "fingerprint": "f8d3b0286a4d346c4d17e67d"
+        },
+        "45cb87aa7b5a3ca4f2040e63": {
+          "id": "45cb87aa7b5a3ca4f2040e63",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS Custom で Microsoft SQL Server の最新の Cumulative Update および GDR 更新プログラムのサポートを開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+          "detail": "Amazon RDS Custom で Microsoft SQL Server の最新の Cumulative Update および GDR 更新プログラムのサポートを開始 — Amazon Relational Database Service (Amazon RDS) Custom for SQL Server では、Microsoft SQL Server 用の最新の累積更新プログラム (CU) および General Distribution Release (GDR) 更新プログラムがサポートされるようになりました。このリリースには、SQL Server 2019 CU32+GDR KB5122772 (RDS バージョン 15.00.4490.9.v1) と SQL Server 2022 CU26 + GDR KB5122768 (RDS バージョン 16.00.4275.2.v1) のサポートが含まれます。 これらの更新プログラムに含まれる改善点と修",
+          "fingerprint": "45e58fed80d83c760c421f8f"
+        },
+        "a1c6fba4a3ed2d7c9dc7a9a0": {
+          "id": "a1c6fba4a3ed2d7c9dc7a9a0",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon RDS for SQL Server がリードレプリカでのスナップショット作成をサポート開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
+          "detail": "Amazon RDS for SQL Server がリードレプリカでのスナップショット作成をサポート開始 — Amazon Relational Database Service (Amazon RDS) for SQL Server が、リードレプリカインスタンス上で直接 DB スナップショットを作成できる機能をサポートするようになりました。以前は、スタンドアロンインスタンスおよびプライマリ DB インスタンスでのみスナップショットを作成可能でした。最初に昇格させることなくリードレプリカのスナップショットを作成できるようになり、バックアップおよびディザスタリカバリ (DR) ワークフローの柔軟性が向上します。 以前は、昇格させたリードレプリカでマルチ AZ を有効にする場合、変換を開始する前に最初のフルスナップショットが完了するのを待つ必要がありました。最大 64 TiB の io2 ボリュームな",
+          "fingerprint": "24ab1f3779d36888d3a034b0"
+        },
+        "28ebbe082e71ae25f23e07a1": {
+          "id": "28ebbe082e71ae25f23e07a1",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS GovCloud と追加の商用リージョンで Amazon CloudWatch のログ一元化機能を提供開始",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+          "detail": "AWS GovCloud と追加の商用リージョンで Amazon CloudWatch のログ一元化機能を提供開始 — Amazon CloudWatch のログ一元化機能が、AWS GovCloud (米国) と追加の 13 の商用リージョンで利用可能になりました。CloudWatch のログ一元化機能を使用すると、複数の AWS アカウントとリージョンのログデータを単一の送信先アカウントにコピーできます。AWS Organizations と連携するため、独自のソリューションを構築せずにログを効率よく集約できます。 今回のリリースにより、AWS GovCloud (米国) パーティションと商用パーティションの各組織は、複数のアカウントやリージョンに分散するログを集約して、一元的にモニタリングできます。一元化ルールは、組織全体、特定の組織単位、選択したアカウントのいずれかを対象に設定できます。また、拡張され",
+          "fingerprint": "f43492f7baf1bed18cba2af8"
+        },
+        "a8444a7098e7b02b5ac9b202": {
+          "id": "a8444a7098e7b02b5ac9b202",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Lambda 永続関数が新たに AWS GovCloud (米国) で利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+          "detail": "AWS Lambda 永続関数が新たに AWS GovCloud (米国) で利用可能に — AWS Lambda 永続関数が AWS GovCloud (米国西部) および AWS GovCloud (米国東部) リージョンで利用できるようになりました。Lambda 永続関数は、デベロッパーが Lambda のデベロッパーエクスペリエンスの中で信頼性の高いマルチステップアプリケーションや AI ワークフローを構築できるようにします。 Lambda 永続関数は、イベントハンドラーに「step」や「wait」などの新しいプリミティブを追加して Lambda プログラミングモデルを拡張します。これにより、進行状況のチェックポイント作成や障害からの自動回復が可能になるほか、オンデマンド関数ではコンピューティング料金を発生させずに実行を一時停止できます。AWS GovCloud (米国) リ",
+          "fingerprint": "f15be9c8693452e0e7a75afe"
+        },
+        "af7f27a689af57c8335cfe99": {
+          "id": "af7f27a689af57c8335cfe99",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Bedrock AgentCore Memory が長期記憶向けに設定可能な有効期限 (TTL) をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/agentcore-memory-long-term-memory-ttl",
+          "detail": "Amazon Bedrock AgentCore Memory が長期記憶向けに設定可能な有効期限 (TTL) をサポート — Amazon Bedrock AgentCore Memory は、長期記憶の記録に対して有効期限 (TTL) を設定できるようになり、定義した保持期間を過ぎた記録は自動的に削除されるようになりました。デフォルトでは、長期記憶の記録は期限切れになりません。今回のリリースにより、データ保持の要件を満たし、ストレージの増加を制御し、時間の経過とともに古いインサイトが記憶から確実に消去されるように TTL を設定できます。 保持期間は、リソースまたは特定の記録に対して設定できます。TTL を設定または削除するには、新しい bedrock-agentcore:UpdateMemoryRecordExpirySpecification アクセス許可が必要であり、誰が記録の保持を設定できるかを独立して制",
+          "fingerprint": "a2b33469b8dc83d2eae31bae"
         }
       },
-      "last_ok": "2026-10-23T05:50:38.128148+00:00",
-      "latest_count": 50
+      "last_ok": "2026-10-24T05:33:30.406945+00:00",
+      "latest_count": 47
     }
   },
-  "updated_at": "2026-10-23T05:50:38.128295+00:00"
+  "updated_at": "2026-10-24T05:33:30.407082+00:00"
 }
