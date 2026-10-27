@@ -1,14 +1,6 @@
-# 公式サイトのみ。JavaScript/ログイン必須ページは取得できない場合があります。
-# type: recruitment | aws_recruiting_event | aws_event | aws_news
+
+# 2028卒・日本法人の新卒正社員採用監視。AWS関連を除外。
 sources:
-  - id: aws_jobs
-    name: AWS
-    type: recruitment
-    url: https://aws.amazon.com/jp/careers/newgraduate/
-  - id: aws_sa
-    name: AWS
-    type: recruitment
-    url: https://aws.amazon.com/jp/careers/newgraduate/solutionsarchitect/
   - id: nri
     name: 野村総合研究所（NRI）
     type: recruitment
@@ -50,25 +42,4 @@ sources:
     name: Google
     type: recruitment
     url: https://www.google.com/about/careers/applications/jobs/results/?jlo=ja_JP
-  - id: aws_newgrad_events
-    name: AWS新卒採用イベント
-    type: aws_recruiting_event
-    url: https://aws.amazon.com/jp/careers/newgraduate/
-  - id: aws_events
-    name: AWSイベント
-    type: aws_event
-    url: https://aws.amazon.com/jp/events/
-  - id: aws_summit
-    name: AWS Summit Japan
-    type: aws_event
-    url: https://aws.amazon.com/jp/events/summits/japan/
-  - id: aws_blog
-    name: AWS公式ブログ
-    type: aws_event
-    url: https://aws.amazon.com/jp/blogs/news/feed/
-    format: rss
-  - id: aws_whats_new
-    name: AWS What's New
-    type: aws_news
-    url: https://aws.amazon.com/about-aws/whats-new/recent/feed/
-    format: rss
+
