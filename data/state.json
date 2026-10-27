@@ -928,11 +928,74 @@
           "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/agentcore-memory-long-term-memory-ttl",
           "detail": "Amazon Bedrock AgentCore Memory が長期記憶向けに設定可能な有効期限 (TTL) をサポート — Amazon Bedrock AgentCore Memory は、長期記憶の記録に対して有効期限 (TTL) を設定できるようになり、定義した保持期間を過ぎた記録は自動的に削除されるようになりました。デフォルトでは、長期記憶の記録は期限切れになりません。今回のリリースにより、データ保持の要件を満たし、ストレージの増加を制御し、時間の経過とともに古いインサイトが記憶から確実に消去されるように TTL を設定できます。 保持期間は、リソースまたは特定の記録に対して設定できます。TTL を設定または削除するには、新しい bedrock-agentcore:UpdateMemoryRecordExpirySpecification アクセス許可が必要であり、誰が記録の保持を設定できるかを独立して制",
           "fingerprint": "a2b33469b8dc83d2eae31bae"
+        },
+        "56fce0cf43da3f0f2b284a6d": {
+          "id": "56fce0cf43da3f0f2b284a6d",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Transform が Amazon S3、EBS、EFS、FSx へのストレージ移行評価を追加",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+          "detail": "AWS Transform が Amazon S3、EBS、EFS、FSx へのストレージ移行評価を追加 — AWS Transform の移行評価 では、AWS への移行に向けてオンプレミスストレージを評価できるようになりました。プロトコル、容量、パフォーマンスにわたる何千ものボリュームを手動で分析する代わりに、ストレージインベントリをアップロードするだけで、AWS Transform がマッピングを行います。AWS Transform は、各ワークロードを最適なサービスに対応付け、推奨構成のサイズを決定し、コストを予測して総保有コストに基づくビジネスケースを作成します。NAS 共有、SAN LUN、直接接続型ディスク、バックアップリポジトリを、NetApp Digital Advisor のエクスポート、RVTools ファイル、またはその他のインベントリを通じて取り込むことができます。AWS",
+          "fingerprint": "52692fecdb69883f8d320e5a"
+        },
+        "6cd2b713ee01eb5752d54a8e": {
+          "id": "6cd2b713ee01eb5752d54a8e",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Direct Connect がイングランドのマンチェスターで 100G の拡張を発表",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/",
+          "detail": "AWS Direct Connect がイングランドのマンチェスターで 100G の拡張を発表 — AWS は本日、イングランドのマンチェスター近郊に位置する Equinix MA3 データセンターの既存の AWS Direct Connect ロケーションにおいて、MACsec 暗号化機能に対応した 10 Gbps および 100 Gbps の専用接続の拡張を発表しました。このロケーションからすべてのパブリック AWS リージョン (中国を除く)、AWS GovCloud リージョン、 AWS Local Zones へのプライベートな直接ネットワークアクセスを確立できるようになりました。これは、MACsec 暗号化機能に対応した 100 Gbps 接続を提供する、イングランドで 3 番目の AWS Direct Connect ロケーションです。 Direct Connect サービス",
+          "fingerprint": "739fe6b589c3d0ec26a3c35a"
+        },
+        "11e2f5729c80c04edbed7cbf": {
+          "id": "11e2f5729c80c04edbed7cbf",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon Aurora と Amazon RDS がオンデマンドキャパシティ予約をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+          "detail": "Amazon Aurora と Amazon RDS がオンデマンドキャパシティ予約をサポート — 本日より、Amazon Aurora および Amazon RDS の DB インスタンスのコンピューティングキャパシティを、1 つまたは複数のアベイラビリティーゾーンで、必要な期間にわたって予約できるようになりました。キャパシティを予約することで、DB インスタンスの作成、復元、コンピューティングのスケーリング、起動の各オペレーションが、キャパシティ不足によって失敗するのを防ぐことができます。 オンデマンドキャパシティ予約は、移行、製品の発売、季節的なピーク、高可用性のデプロイ、ディザスタリカバリなど、ビジネスクリティカルなイベントで必要なときに特定の DB インスタンスのキャパシティを確実に利用できるようにする必要があるワークロード向けに設計されています。DB インスタンスクラス、エンジ",
+          "fingerprint": "d229bc1a7f98a7ddf0a27d83"
+        },
+        "cee222ee5851a7ca7cca2531": {
+          "id": "cee222ee5851a7ca7cca2531",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudWatch Logs への Amazon S3 サーバーアクセスログの配信が新たに 5 つの AWS リージョンで利用可能に",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-s3-server-access-logs-cloudwatch-logs-regions/",
+          "detail": "Amazon CloudWatch Logs への Amazon S3 サーバーアクセスログの配信が新たに 5 つの AWS リージョンで利用可能に — Amazon CloudWatch Logs への Amazon S3 サーバーアクセスログの配信が、AWS GovCloud (米国) リージョン、AWS European Sovereign Cloud、AWS 中国リージョンで利用できるようになりました。アクセスログを CloudWatch Logs に保存すると、ログの到着と同時にクエリを実行したり、アラームを設定したり、AWS Key Management Service (AWS KMS) キーで暗号化したりできます。この新しい配信パスは、S3 汎用バケットへの既存のサーバーアクセスログ配信を補完するものです。これにより、データへのアクセスのモニタリングや分析をより柔軟に行えるようになります。 CloudWatch Logs への",
+          "fingerprint": "50c00822d6c85aea84e7ac07"
+        },
+        "55e7d234df530cc7a6cc64fa": {
+          "id": "55e7d234df530cc7a6cc64fa",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "AWS Network Firewall が Route 53 解決済み IP 検証をサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+          "detail": "AWS Network Firewall が Route 53 解決済み IP 検証をサポート — AWS Network Firewall では IP 検証がサポートされ、ドメインベースのフィルタリングを HTTP/HTTPS 以外の SFTP や SSH などのプロトコルにも適用できるようになりました。この新機能は、接続先の IP アドレスが VPC の Amazon Route 53 VPC Resolver を通じて解決されたものであることを検証し、クライアントがドメインルールを回避できてしまうセキュリティギャップを解消します。 この機能により、Network Firewall のお客様は、HTTP/HTTPS に限らずあらゆるプロトコルに対してドメインフィルタリングルールを実装でき、IP ベースのルールだけを使う場合よりも柔軟なセキュリティポリシーを実現できます。また、サーバー名",
+          "fingerprint": "ba500061a046b9b78f649737"
+        },
+        "7e740e50cfc3b0fe624e1810": {
+          "id": "7e740e50cfc3b0fe624e1810",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "ECS サービス向けのマネージド型イングレスソリューションである Amazon ECS Gateway を発表",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+          "detail": "ECS サービス向けのマネージド型イングレスソリューションである Amazon ECS Gateway を発表 — AWS は、Amazon Elastic Container Service (Amazon ECS) Gateway を発表しました。これは、Application Load Balancer (ALB) とそれをサポートする関連リソースをお客様のアカウント内で直接、動的にプロビジョニングおよび管理することで、コンテナ化されたアプリケーションのイングレスネットワークを簡素化する新しいリソースです。 ECS Gateway では、プラットフォームチームが組織のネットワーク標準をゲートウェイで一度定義し、そのゲートウェイを 1 つ以上のクラスターに関連付けます。これにより、組織はトラフィックが ECS サービスに到達する方法を一元的に統制できます。アプリケーションチームは、オプトインするだけで",
+          "fingerprint": "a2db13740ea83cffa94f88e3"
+        },
+        "446908aa030b5d05e16a35d0": {
+          "id": "446908aa030b5d05e16a35d0",
+          "category": "aws_news",
+          "company": "AWS What's New",
+          "title": "Amazon CloudWatch アラームがアラームアクションのペイロード内のタグをサポート",
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
+          "detail": "Amazon CloudWatch アラームがアラームアクションのペイロード内のタグをサポート — 本日、Amazon CloudWatch では、アクションペイロードと Amazon EventBridge イベントにアラームタグを含める機能のサポートを発表しました。これにより、お客様はタグを別途照会することなく、タグに基づいてアラーム通知をルーティングおよびフィルタリングできます。アラームでこの機能を有効にすると、アラームの状態が変わるたびに、CloudWatch は Amazon SNS、AWS Lambda、Amazon EventBridge に送信するメッセージにアラームタグを追加します。このオプションは、共有の通知パイプラインを使って多数のアラームをルーティングし、アラームの担当チーム、環境、サービスをメッセージから直接特定する必要があるお客様向けに設計されています。 アクシ",
+          "fingerprint": "94c46145f287cd6aa672cc9b"
         }
       },
-      "last_ok": "2026-10-24T05:33:30.406945+00:00",
-      "latest_count": 47
+      "last_ok": "2026-10-27T06:05:00.107730+00:00",
+      "latest_count": 45
     }
   },
-  "updated_at": "2026-10-24T05:33:30.407082+00:00"
+  "updated_at": "2026-10-27T06:05:00.107879+00:00"
 }
